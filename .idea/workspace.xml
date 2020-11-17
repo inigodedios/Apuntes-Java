@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -19,7 +22,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a291377-ed8e-4e73-a96d-9b737ba73d12" name="Default Changelist" comment="prueba756&#10;kbjn n" />
+    <list default="true" id="8a291377-ed8e-4e73-a96d-9b737ba73d12" name="Default Changelist" comment="prueba756&#10;kbjn n">
+      <change afterPath="$PROJECT_DIR$/Apuntes/src/BD/BDConceptos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apuntes/src/BD/BD.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,9 +55,36 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="openjdk-15" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="project.kotlinCompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Apuntes" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="BD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BD.BD" />
+      <module name="Apuntes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BD.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BD" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -96,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605443969542</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="prueba756&#10;kbjn n">
+      <created>1605443987463</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1605443987463</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -119,25 +160,55 @@
     <option name="LAST_COMMIT_MESSAGE" value="prueba756&#10;kbjn n" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="208" y="43" key="#Project_Structure" timestamp="1605403764258">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state x="208" y="25" key="#Project_Structure" timestamp="1605611948207">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="208" y="25" key="#Project_Structure/0.0.1440.900@0.0.1440.900" timestamp="1605611948207" />
+    <state x="208" y="45" key="#Project_Structure/0.25.1440.875@0.25.1440.875" timestamp="1605443872504" />
     <state x="208" y="43" key="#Project_Structure/1440.23.2560.1057/0.23.1440.877@0.23.1440.877" timestamp="1605403764258" />
+    <state x="184" y="110" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605607358494">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="184" y="110" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1605607358494" />
     <state x="441" y="270" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605403927176">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="441" y="270" key="#com.intellij.fileTypes.FileTypeChooser/1440.23.2560.1057/0.23.1440.877@0.23.1440.877" timestamp="1605403927176" />
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1605403161043">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1398" height="228" key="GridCell.Tab.0.bottom" timestamp="1605613775574">
+      <screen x="0" y="25" width="1440" height="875" />
     </state>
+    <state width="1398" height="228" key="GridCell.Tab.0.bottom/0.25.1440.875@0.25.1440.875" timestamp="1605613775574" />
+    <state width="1398" height="228" key="GridCell.Tab.0.center" timestamp="1605613775573">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1398" height="228" key="GridCell.Tab.0.center/0.25.1440.875@0.25.1440.875" timestamp="1605613775573" />
+    <state width="1398" height="228" key="GridCell.Tab.0.left" timestamp="1605613775573">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1398" height="228" key="GridCell.Tab.0.left/0.25.1440.875@0.25.1440.875" timestamp="1605613775573" />
+    <state width="1398" height="228" key="GridCell.Tab.0.right" timestamp="1605613775574">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1398" height="228" key="GridCell.Tab.0.right/0.25.1440.875@0.25.1440.875" timestamp="1605613775574" />
+    <state x="229" y="60" key="SettingsEditor" timestamp="1605613566956">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="229" y="86" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1605606977372" />
+    <state x="229" y="60" key="SettingsEditor/0.25.1440.875@0.25.1440.875" timestamp="1605613566956" />
+    <state x="320" y="183" key="Vcs.Push.Dialog.v2" timestamp="1605607159040">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="183" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1605607159040" />
     <state x="320" y="201" key="Vcs.Push.Dialog.v2/1440.23.2560.1057/0.23.1440.877@0.23.1440.877" timestamp="1605403161043" />
-    <state x="518" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605403221462">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state x="518" y="368" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605443975214">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="518" y="368" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1605443975214" />
     <state x="518" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1440.23.2560.1057/0.23.1440.877@0.23.1440.877" timestamp="1605403221462" />
-    <state x="354" y="84" key="new project wizard" timestamp="1605403756430">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state x="354" y="86" key="new project wizard" timestamp="1605443757603">
+      <screen x="0" y="25" width="1440" height="875" />
     </state>
+    <state x="354" y="86" key="new project wizard/0.25.1440.875@0.25.1440.875" timestamp="1605443757603" />
     <state x="354" y="84" key="new project wizard/1440.23.2560.1057/0.23.1440.877@0.23.1440.877" timestamp="1605403756430" />
   </component>
 </project>
