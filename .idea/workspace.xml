@@ -22,10 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a291377-ed8e-4e73-a96d-9b737ba73d12" name="Default Changelist" comment="Apuntes BD">
-      <change afterPath="$PROJECT_DIR$/Apuntes/src/EstructurasDeDatos/EstructurasDeDatos.java" afterDir="false" />
+    <list default="true" id="8a291377-ed8e-4e73-a96d-9b737ba73d12" name="Default Changelist" comment="Modificando EstructurasDeDatos">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/sqlite-jdbc-3.14.2.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/src/BD/sqlite-jdbc-3.14.2.1.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +59,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -196,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605815079406</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Modificando EstructurasDeDatos">
+      <created>1605818178657</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1605818178657</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -229,14 +234,15 @@
     <MESSAGE value="organizando archivos 17/11/2020" />
     <MESSAGE value="d" />
     <MESSAGE value="Apuntes BD" />
-    <option name="LAST_COMMIT_MESSAGE" value="Apuntes BD" />
+    <MESSAGE value="Modificando EstructurasDeDatos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modificando EstructurasDeDatos" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="206" y="91" key="#Plugins" timestamp="1605811716176">
-      <screen x="0" y="25" width="1440" height="875" />
+    <state x="320" y="86" key="#Plugins" timestamp="1605822765280">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="320" y="109" key="#Plugins/0.25.1440.875@0.25.1440.875" timestamp="1605616258896" />
-    <state x="320" y="86" key="#Plugins/1440.0.2560.1080/0.0.1440.900@0.0.1440.900" timestamp="1605811619499" />
+    <state x="320" y="86" key="#Plugins/1440.0.2560.1080/0.0.1440.900@0.0.1440.900" timestamp="1605822765280" />
     <state x="206" y="91" key="#Plugins/1440.0.2560.1080/0.25.1440.875@1440.0.2560.1080" timestamp="1605811716176" />
     <state x="208" y="49" key="#Project_Structure" timestamp="1605809882903">
       <screen x="0" y="25" width="1440" height="875" />
@@ -293,20 +299,21 @@
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="591" y="187" key="RollbackChangesDialog/0.25.1440.875@0.25.1440.875" timestamp="1605724352895" />
-    <state x="0" y="0" width="1440" height="875" key="SettingsEditor" timestamp="1605817917176">
+    <state x="0" y="0" width="1440" height="875" key="SettingsEditor" timestamp="1605818484762">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="229" y="86" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1605606977372" />
     <state x="0" y="25" width="1440" height="875" key="SettingsEditor/0.25.1440.875@0.25.1440.875" timestamp="1605727520124" />
-    <state x="0" y="0" key="SettingsEditor/1440.0.2560.1080/0.0.1440.900@0.0.1440.900" timestamp="1605817917176" />
+    <state x="0" y="0" key="SettingsEditor/1440.0.2560.1080/0.0.1440.900@0.0.1440.900" timestamp="1605818484762" />
     <state x="1440" y="0" key="SettingsEditor/1440.0.2560.1080/0.0.1440.900@1440.0.2560.1080" timestamp="1605811807343" />
     <state x="0" y="0" key="SettingsEditor/1440.25.2560.1055/0.0.1440.900@0.0.1440.900" timestamp="1605817730367" />
     <state x="0" y="25" key="SettingsEditor/1440.25.2560.1055/0.25.1440.875@0.25.1440.875" timestamp="1605810747880" />
-    <state x="320" y="203" key="Vcs.Push.Dialog.v2" timestamp="1605810768114">
-      <screen x="0" y="25" width="1440" height="875" />
+    <state x="320" y="183" key="Vcs.Push.Dialog.v2" timestamp="1605818160312">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="320" y="183" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1605607159040" />
     <state x="320" y="203" key="Vcs.Push.Dialog.v2/0.25.1440.875@0.25.1440.875" timestamp="1605614110355" />
+    <state x="320" y="183" key="Vcs.Push.Dialog.v2/1440.0.2560.1080/0.0.1440.900@0.0.1440.900" timestamp="1605818160312" />
     <state x="320" y="201" key="Vcs.Push.Dialog.v2/1440.23.2560.1057/0.23.1440.877@0.23.1440.877" timestamp="1605403161043" />
     <state x="320" y="203" key="Vcs.Push.Dialog.v2/1440.25.2560.1055/0.25.1440.875@0.25.1440.875" timestamp="1605810768114" />
     <state x="518" y="383" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605810771154">
@@ -325,11 +332,11 @@
     </state>
     <state x="354" y="86" key="new project wizard/0.25.1440.875@0.25.1440.875" timestamp="1605725140834" />
     <state x="354" y="84" key="new project wizard/1440.23.2560.1057/0.23.1440.877@0.23.1440.877" timestamp="1605403756430" />
-    <state x="2124" y="233" width="1192" height="836" key="search.everywhere.popup" timestamp="1605811642192">
-      <screen x="1440" y="0" width="2560" height="1080" />
+    <state x="385" y="194" width="670" height="696" key="search.everywhere.popup" timestamp="1605822750847">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="385" y="214" width="670" height="676" key="search.everywhere.popup/0.25.1440.875@0.25.1440.875" timestamp="1605616343313" />
-    <state x="385" y="194" width="670" height="696" key="search.everywhere.popup/1440.0.2560.1080/0.0.1440.900@0.0.1440.900" timestamp="1605811602346" />
+    <state x="385" y="194" width="670" height="696" key="search.everywhere.popup/1440.0.2560.1080/0.0.1440.900@0.0.1440.900" timestamp="1605822750847" />
     <state x="2124" y="233" width="1192" height="836" key="search.everywhere.popup/1440.0.2560.1080/0.0.1440.900@1440.0.2560.1080" timestamp="1605811642192" />
     <state x="385" y="194" width="670" height="696" key="search.everywhere.popup/1440.25.2560.1055/0.0.1440.900@0.0.1440.900" timestamp="1605811519830" />
     <state x="385" y="214" width="670" height="676" key="search.everywhere.popup/1440.25.2560.1055/0.25.1440.875@0.25.1440.875" timestamp="1605809258463" />

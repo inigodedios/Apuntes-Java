@@ -5,10 +5,10 @@ import java.util.HashSet;
 import java.util.TreeMap;
 import java.util.TreeSet;
 
-public class EstructurasDeDatos {
+public class Colections {
 
 		//Lista de elementos que no tiene orden y puede haber elementos repetidos
-			public EstructurasDeDatos (){
+			public Colections(){
 
 		//Lista de elementos que no tiene orden y puede haber elementos repetidos
 			ArrayList<Integer> a = new ArrayList<>();
