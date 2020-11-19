@@ -22,11 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a291377-ed8e-4e73-a96d-9b737ba73d12" name="Default Changelist" comment="d">
-      <change afterPath="$PROJECT_DIR$/Apuntes/src/BD/BDOperaciones.java" afterDir="false" />
+    <list default="true" id="8a291377-ed8e-4e73-a96d-9b737ba73d12" name="Default Changelist" comment="Apuntes BD">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/production/Apuntes/BD/BDConceptos.class" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/production/Apuntes/BD/BDConceptos.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/src/BD/BDConceptos.java" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/src/BD/BDConceptos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apuntes/src/BD/BDOperaciones.java" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/src/BD/BDOperaciones.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,8 +96,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BD" />
         <item itemvalue="Application.BDConceptos" />
+        <item itemvalue="Application.BD" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +166,21 @@
       <option name="project" value="LOCAL" />
       <updated>1605810995574</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Apuntes BD">
+      <created>1605814498296</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1605814498296</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Apuntes BD">
+      <created>1605814505290</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1605814505290</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -200,7 +212,8 @@
     <MESSAGE value="prueba756&#10;kbjn n" />
     <MESSAGE value="organizando archivos 17/11/2020" />
     <MESSAGE value="d" />
-    <option name="LAST_COMMIT_MESSAGE" value="d" />
+    <MESSAGE value="Apuntes BD" />
+    <option name="LAST_COMMIT_MESSAGE" value="Apuntes BD" />
   </component>
   <component name="WindowStateProjectService">
     <state x="206" y="91" key="#Plugins" timestamp="1605811716176">
