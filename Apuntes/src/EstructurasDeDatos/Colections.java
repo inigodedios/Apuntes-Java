@@ -7,15 +7,15 @@ import java.util.TreeSet;
 
 public class Colections {
 
-		//Lista de elementos que no tiene orden y puede haber elementos repetidos
-			public Colections(){
+	//Lista de elementos que no tiene orden y puede haber elementos repetidos
+	public Colections(){
 
 		//Lista de elementos que no tiene orden y puede haber elementos repetidos
-			ArrayList<Integer> a = new ArrayList<>();
-			a.add(new Integer(3)); //Añade al final
-			Integer i2 = new Integer(34);
-			a.add(i2);
-			a.set(0, new Integer(3)); //Especificamos la posición
+		ArrayList<Integer> a = new ArrayList<>();
+		a.add(new Integer(3)); //Añade al final
+		Integer i2 = new Integer(34);
+		a.add(i2);
+		a.set(0, new Integer(3)); //Especificamos la posición
 
 		//Lista de elementos que no se repitan (set: TreeSet, HashSet)
 			/*TreeSet -->
@@ -44,15 +44,15 @@ public class Colections {
 
 
 		//Lista de elementos identificados por una clave (map: TreeMap, HashMap) TODO
-            //TreeMap -->
-            //HashMap -->
-			//DEBEMOS OVERRIDE EQUALS Y HASHCODE
+		//TreeMap -->
+		//HashMap -->
+		//DEBEMOS OVERRIDE EQUALS Y HASHCODE
 
 		TreeMap<String, Integer> tm = new TreeMap<>();
 		tm.put("tres", new Integer(3));
 		tm.put("tres", new Integer(4)); //Se sobreescribe el valor 3
 		tm.put("cuatro", new Integer(15));
 
-   }
+	}
 
 }
