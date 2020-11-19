@@ -1,0 +1,34 @@
+package BD;
+
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+import static BD.BDConceptos.cerrarBD;
+import static BD.BDConceptos.initBD;
+
+public class BDOperaciones {
+
+    public static boolean existeUsuario(String nick) {
+        //statement.executeUpdate : Cuando queramos hacer create, insert, delete, update, drop
+        //statement.executeQuery : Cuando queramos hacer select
+        boolean existe = false;
+
+        String sql = "SELECT * FROM Usuario WHERE nick ='"+nick+"'"; //Comillas simples!!
+        Connection con = initBD("academia.db");
+        Statement st;
+        try {
+            st = con.createStatement(); //Creo el objeto sentencia
+            ResultSet rs = st.executeQuery(sql); //Ejecutamos la consulta
+            if(rs.next()) { //rs.next() -> Devuelve true si rs tiene datos, false en caso contrario
+                existe = true;
+            }
+            cerrarBD(con, st);
+        } catch (SQLException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+        return existe;
+    }
+}

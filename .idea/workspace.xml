@@ -22,9 +22,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a291377-ed8e-4e73-a96d-9b737ba73d12" name="Default Changelist" comment="organizando archivos 17/11/2020">
-      <change afterPath="$PROJECT_DIR$/Apuntes/production/Apuntes/BD/BDConceptos.class" afterDir="false" />
+    <list default="true" id="8a291377-ed8e-4e73-a96d-9b737ba73d12" name="Default Changelist" comment="d">
+      <change afterPath="$PROJECT_DIR$/Apuntes/src/BD/BDOperaciones.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apuntes/production/Apuntes/BD/BDConceptos.class" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/production/Apuntes/BD/BDConceptos.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Apuntes/src/BD/BDConceptos.java" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/src/BD/BDConceptos.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +61,8 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -96,8 +98,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BDConceptos" />
         <item itemvalue="Application.BD" />
+        <item itemvalue="Application.BDConceptos" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605614083708</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="d">
+      <created>1605810995574</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1605810995574</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -190,13 +199,16 @@
     <MESSAGE value="prueba756&#10;kbj" />
     <MESSAGE value="prueba756&#10;kbjn n" />
     <MESSAGE value="organizando archivos 17/11/2020" />
-    <option name="LAST_COMMIT_MESSAGE" value="organizando archivos 17/11/2020" />
+    <MESSAGE value="d" />
+    <option name="LAST_COMMIT_MESSAGE" value="d" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="320" y="109" key="#Plugins" timestamp="1605616258896">
+    <state x="206" y="91" key="#Plugins" timestamp="1605811716176">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="320" y="109" key="#Plugins/0.25.1440.875@0.25.1440.875" timestamp="1605616258896" />
+    <state x="320" y="86" key="#Plugins/1440.0.2560.1080/0.0.1440.900@0.0.1440.900" timestamp="1605811619499" />
+    <state x="206" y="91" key="#Plugins/1440.0.2560.1080/0.25.1440.875@1440.0.2560.1080" timestamp="1605811716176" />
     <state x="208" y="49" key="#Project_Structure" timestamp="1605809882903">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
@@ -212,39 +224,50 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="441" y="270" key="#com.intellij.fileTypes.FileTypeChooser/1440.23.2560.1057/0.23.1440.877@0.23.1440.877" timestamp="1605403927176" />
+    <state x="467" y="300" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1605812471807">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="467" y="300" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/1440.0.2560.1080/0.0.1440.900@0.0.1440.900" timestamp="1605812471807" />
     <state x="100" y="125" width="1240" height="675" key="DiffContextDialog" timestamp="1605724450915">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="100" y="125" width="1240" height="675" key="DiffContextDialog/0.25.1440.875@0.25.1440.875" timestamp="1605724450915" />
-    <state width="1398" height="228" key="GridCell.Tab.0.bottom" timestamp="1605809331123">
-      <screen x="0" y="25" width="1440" height="875" />
+    <state width="1398" height="215" key="GridCell.Tab.0.bottom" timestamp="1605811457639">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="228" key="GridCell.Tab.0.bottom/0.25.1440.875@0.25.1440.875" timestamp="1605727433982" />
+    <state width="1398" height="215" key="GridCell.Tab.0.bottom/1440.0.2560.1080/0.0.1440.900@0.0.1440.900" timestamp="1605811457639" />
     <state width="1398" height="228" key="GridCell.Tab.0.bottom/1440.25.2560.1055/0.25.1440.875@0.25.1440.875" timestamp="1605809331123" />
-    <state width="1398" height="228" key="GridCell.Tab.0.center" timestamp="1605809331122">
-      <screen x="0" y="25" width="1440" height="875" />
+    <state width="1398" height="215" key="GridCell.Tab.0.center" timestamp="1605811457637">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="228" key="GridCell.Tab.0.center/0.25.1440.875@0.25.1440.875" timestamp="1605727433982" />
+    <state width="1398" height="215" key="GridCell.Tab.0.center/1440.0.2560.1080/0.0.1440.900@0.0.1440.900" timestamp="1605811457637" />
     <state width="1398" height="228" key="GridCell.Tab.0.center/1440.25.2560.1055/0.25.1440.875@0.25.1440.875" timestamp="1605809331122" />
-    <state width="1398" height="228" key="GridCell.Tab.0.left" timestamp="1605809331121">
-      <screen x="0" y="25" width="1440" height="875" />
+    <state width="1398" height="215" key="GridCell.Tab.0.left" timestamp="1605811457636">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="228" key="GridCell.Tab.0.left/0.25.1440.875@0.25.1440.875" timestamp="1605727433982" />
+    <state width="1398" height="215" key="GridCell.Tab.0.left/1440.0.2560.1080/0.0.1440.900@0.0.1440.900" timestamp="1605811457636" />
     <state width="1398" height="228" key="GridCell.Tab.0.left/1440.25.2560.1055/0.25.1440.875@0.25.1440.875" timestamp="1605809331121" />
-    <state width="1398" height="228" key="GridCell.Tab.0.right" timestamp="1605809331122">
-      <screen x="0" y="25" width="1440" height="875" />
+    <state width="1398" height="215" key="GridCell.Tab.0.right" timestamp="1605811457638">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="228" key="GridCell.Tab.0.right/0.25.1440.875@0.25.1440.875" timestamp="1605727433982" />
+    <state width="1398" height="215" key="GridCell.Tab.0.right/1440.0.2560.1080/0.0.1440.900@0.0.1440.900" timestamp="1605811457638" />
     <state width="1398" height="228" key="GridCell.Tab.0.right/1440.25.2560.1055/0.25.1440.875@0.25.1440.875" timestamp="1605809331122" />
     <state x="591" y="187" key="RollbackChangesDialog" timestamp="1605724352895">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="591" y="187" key="RollbackChangesDialog/0.25.1440.875@0.25.1440.875" timestamp="1605724352895" />
-    <state x="0" y="25" width="1440" height="875" key="SettingsEditor" timestamp="1605810747880">
-      <screen x="0" y="25" width="1440" height="875" />
+    <state x="1440" y="0" width="1440" height="875" key="SettingsEditor" timestamp="1605811807343">
+      <screen x="1440" y="0" width="2560" height="1080" />
     </state>
     <state x="229" y="86" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1605606977372" />
     <state x="0" y="25" width="1440" height="875" key="SettingsEditor/0.25.1440.875@0.25.1440.875" timestamp="1605727520124" />
+    <state x="0" y="0" key="SettingsEditor/1440.0.2560.1080/0.0.1440.900@0.0.1440.900" timestamp="1605811445266" />
+    <state x="1440" y="0" key="SettingsEditor/1440.0.2560.1080/0.0.1440.900@1440.0.2560.1080" timestamp="1605811807343" />
+    <state x="0" y="0" key="SettingsEditor/1440.25.2560.1055/0.0.1440.900@0.0.1440.900" timestamp="1605811501897" />
     <state x="0" y="25" key="SettingsEditor/1440.25.2560.1055/0.25.1440.875@0.25.1440.875" timestamp="1605810747880" />
     <state x="320" y="203" key="Vcs.Push.Dialog.v2" timestamp="1605810768114">
       <screen x="0" y="25" width="1440" height="875" />
@@ -269,10 +292,13 @@
     </state>
     <state x="354" y="86" key="new project wizard/0.25.1440.875@0.25.1440.875" timestamp="1605725140834" />
     <state x="354" y="84" key="new project wizard/1440.23.2560.1057/0.23.1440.877@0.23.1440.877" timestamp="1605403756430" />
-    <state x="385" y="214" width="670" height="676" key="search.everywhere.popup" timestamp="1605809258463">
-      <screen x="0" y="25" width="1440" height="875" />
+    <state x="2124" y="233" width="1192" height="836" key="search.everywhere.popup" timestamp="1605811642192">
+      <screen x="1440" y="0" width="2560" height="1080" />
     </state>
     <state x="385" y="214" width="670" height="676" key="search.everywhere.popup/0.25.1440.875@0.25.1440.875" timestamp="1605616343313" />
+    <state x="385" y="194" width="670" height="696" key="search.everywhere.popup/1440.0.2560.1080/0.0.1440.900@0.0.1440.900" timestamp="1605811602346" />
+    <state x="2124" y="233" width="1192" height="836" key="search.everywhere.popup/1440.0.2560.1080/0.0.1440.900@1440.0.2560.1080" timestamp="1605811642192" />
+    <state x="385" y="194" width="670" height="696" key="search.everywhere.popup/1440.25.2560.1055/0.0.1440.900@0.0.1440.900" timestamp="1605811519830" />
     <state x="385" y="214" width="670" height="676" key="search.everywhere.popup/1440.25.2560.1055/0.25.1440.875@0.25.1440.875" timestamp="1605809258463" />
   </component>
 </project>
