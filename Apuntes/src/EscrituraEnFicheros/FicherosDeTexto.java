@@ -12,7 +12,6 @@ public class FicherosDeTexto {
             pw.println("vamos a crear un fichero de texto");
 
         } catch (FileNotFoundException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace(); //Muestra mensaje de error
         } finally {
             if (pw != null) {
@@ -32,17 +31,14 @@ public class FicherosDeTexto {
                 linea = br.readLine();
             }
         } catch (FileNotFoundException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         } catch (IOException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         } finally {
             try {
                 if (br != null)
                     br.close();
             } catch (IOException e) {
-                // TODO Auto-generated catch block
                 e.printStackTrace();
             }
         }

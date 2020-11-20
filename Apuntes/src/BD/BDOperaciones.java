@@ -27,7 +27,6 @@ public class BDOperaciones {
             }
             cerrarBD(con, st);
         } catch (SQLException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         }
         return existe;
