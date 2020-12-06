@@ -4,7 +4,7 @@ import javax.swing.*;
 
 public class Operadores {
     public static void main(String[] args) {
-        //OPERADOR TERNARIO TODO Marian
+        //OPERADOR TERNARIO
         //Sintaxis --> Object o = (expresion)?valor1:valor2; Donde o recibira el valor1 en el caso de que la condicion sea true o el valor si es falso
         String s1 = "Prueba1";
         String s2 = "Prueba2";

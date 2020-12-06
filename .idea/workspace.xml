@@ -22,9 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a291377-ed8e-4e73-a96d-9b737ba73d12" name="Default Changelist" comment="Colecciones">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/src/Componentes/JFileChooser.java" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/src/Componentes/JFileChooser.java" afterDir="false" />
+    <list default="true" id="8a291377-ed8e-4e73-a96d-9b737ba73d12" name="Default Changelist" comment="Correciones en la clase Operadores.java">
       <change beforePath="$PROJECT_DIR$/Apuntes/src/Operadores/Operadores.java" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/src/Operadores/Operadores.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -324,7 +322,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607298338431</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Correciones en la clase Operadores.java">
+      <created>1607298836257</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1607298836257</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -362,7 +367,8 @@
     <MESSAGE value="JUnit, JMenu, Hilos" />
     <MESSAGE value="." />
     <MESSAGE value="Colecciones" />
-    <option name="LAST_COMMIT_MESSAGE" value="Colecciones" />
+    <MESSAGE value="Correciones en la clase Operadores.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correciones en la clase Operadores.java" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="86" key="#Plugins" timestamp="1605823916998">
@@ -404,33 +410,33 @@
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="100" y="125" width="1240" height="675" key="DiffContextDialog/0.25.1440.875@0.25.1440.875" timestamp="1605724450915" />
-    <state width="1259" height="257" key="GridCell.Tab.0.bottom" timestamp="1607298797705">
+    <state width="1259" height="257" key="GridCell.Tab.0.bottom" timestamp="1607298839867">
       <screen x="1440" y="0" width="2560" height="1080" />
     </state>
     <state width="1398" height="228" key="GridCell.Tab.0.bottom/0.25.1440.875@0.25.1440.875" timestamp="1605727433982" />
     <state width="1398" height="206" key="GridCell.Tab.0.bottom/1440.0.2560.1080/0.0.1440.900@0.0.1440.900" timestamp="1605832986171" />
-    <state width="1259" height="257" key="GridCell.Tab.0.bottom/1440.0.2560.1080/0.0.1440.900@1440.0.2560.1080" timestamp="1607298797705" />
+    <state width="1259" height="257" key="GridCell.Tab.0.bottom/1440.0.2560.1080/0.0.1440.900@1440.0.2560.1080" timestamp="1607298839867" />
     <state width="1398" height="228" key="GridCell.Tab.0.bottom/1440.25.2560.1055/0.25.1440.875@0.25.1440.875" timestamp="1605809331123" />
-    <state width="1259" height="257" key="GridCell.Tab.0.center" timestamp="1607298797703">
+    <state width="1259" height="257" key="GridCell.Tab.0.center" timestamp="1607298839865">
       <screen x="1440" y="0" width="2560" height="1080" />
     </state>
     <state width="1398" height="228" key="GridCell.Tab.0.center/0.25.1440.875@0.25.1440.875" timestamp="1605727433982" />
     <state width="1398" height="206" key="GridCell.Tab.0.center/1440.0.2560.1080/0.0.1440.900@0.0.1440.900" timestamp="1605832986169" />
-    <state width="1259" height="257" key="GridCell.Tab.0.center/1440.0.2560.1080/0.0.1440.900@1440.0.2560.1080" timestamp="1607298797703" />
+    <state width="1259" height="257" key="GridCell.Tab.0.center/1440.0.2560.1080/0.0.1440.900@1440.0.2560.1080" timestamp="1607298839865" />
     <state width="1398" height="228" key="GridCell.Tab.0.center/1440.25.2560.1055/0.25.1440.875@0.25.1440.875" timestamp="1605809331122" />
-    <state width="1259" height="257" key="GridCell.Tab.0.left" timestamp="1607298797703">
+    <state width="1259" height="257" key="GridCell.Tab.0.left" timestamp="1607298839861">
       <screen x="1440" y="0" width="2560" height="1080" />
     </state>
     <state width="1398" height="228" key="GridCell.Tab.0.left/0.25.1440.875@0.25.1440.875" timestamp="1605727433982" />
     <state width="1398" height="206" key="GridCell.Tab.0.left/1440.0.2560.1080/0.0.1440.900@0.0.1440.900" timestamp="1605832986167" />
-    <state width="1259" height="257" key="GridCell.Tab.0.left/1440.0.2560.1080/0.0.1440.900@1440.0.2560.1080" timestamp="1607298797703" />
+    <state width="1259" height="257" key="GridCell.Tab.0.left/1440.0.2560.1080/0.0.1440.900@1440.0.2560.1080" timestamp="1607298839861" />
     <state width="1398" height="228" key="GridCell.Tab.0.left/1440.25.2560.1055/0.25.1440.875@0.25.1440.875" timestamp="1605809331121" />
-    <state width="1259" height="257" key="GridCell.Tab.0.right" timestamp="1607298797704">
+    <state width="1259" height="257" key="GridCell.Tab.0.right" timestamp="1607298839866">
       <screen x="1440" y="0" width="2560" height="1080" />
     </state>
     <state width="1398" height="228" key="GridCell.Tab.0.right/0.25.1440.875@0.25.1440.875" timestamp="1605727433982" />
     <state width="1398" height="206" key="GridCell.Tab.0.right/1440.0.2560.1080/0.0.1440.900@0.0.1440.900" timestamp="1605832986170" />
-    <state width="1259" height="257" key="GridCell.Tab.0.right/1440.0.2560.1080/0.0.1440.900@1440.0.2560.1080" timestamp="1607298797704" />
+    <state width="1259" height="257" key="GridCell.Tab.0.right/1440.0.2560.1080/0.0.1440.900@1440.0.2560.1080" timestamp="1607298839866" />
     <state width="1398" height="228" key="GridCell.Tab.0.right/1440.25.2560.1055/0.25.1440.875@0.25.1440.875" timestamp="1605809331122" />
     <state x="591" y="187" key="RollbackChangesDialog" timestamp="1605724352895">
       <screen x="0" y="25" width="1440" height="875" />
