@@ -40,7 +40,7 @@ public class JUnitTest {
     * assertNull([mensaje], objeto); --> Mensaje + Comprueba que el objeto sea nulo.
     * assertNotNull([mensaje], objeto); --> Mensaje + Comprueba que el objeto no sea nulo.
     * fail([mensaje]); --> Hace que el método falle. Debería ser utilizado solo para comprobar que una parte del código de test no se ejecute o para hacer fallar un test no implementado.
-    * */
+    */
 
 
 
