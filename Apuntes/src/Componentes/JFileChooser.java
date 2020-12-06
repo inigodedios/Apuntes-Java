@@ -21,7 +21,7 @@ public class JFileChooser {
                 int sel = fc.showOpenDialog(btnBuscarFoto);
                 if (sel == javax.swing.JFileChooser.APPROVE_OPTION) {
                     File ficheroSeleccionado = fc.getSelectedFile();
-                    txtRuta.setText("imagenes/" + ficheroSeleccionado.getName()); //TODO error?
+//                    txtRuta.setText("imagenes/" + ficheroSeleccionado.getName()); //TODO error?
                 }
             }
         });

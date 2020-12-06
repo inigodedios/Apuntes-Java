@@ -5,12 +5,11 @@ import javax.swing.*;
 public class Operadores {
     public static void main(String[] args) {
         //OPERADOR TERNARIO TODO Marian
-        //Sintaxis --> (expresion)?valor_true:valor_false;
-        int vble1 = 5;
-        int vble2 = 4;
-        int mayor;
-        mayor = (vble1 > vble2) ? vble1 : vble2;
-        System.out.println("El mayor de los dos números es " + mayor);
+        //Sintaxis --> Object o = (expresion)?valor1:valor2; Donde o recibira el valor1 en el caso de que la condicion sea true o el valor si es falso
+        String s1 = "Prueba1";
+        String s2 = "Prueba2";
+        String s3 = (s1.equals(s2)) ? s1 : s2;
+        System.out.println("El mayor de los dos números es " + s3);
 
 
         //OPERADOR INSTANCEOF
@@ -18,8 +17,7 @@ public class Operadores {
         //Sintaxis --> objeto instanceof clase
         JButton boton = null;
         if (boton instanceof JButton) {
-            System.out.println("error");//No es de la misma clase
-
+            System.out.println("Es de la misma clase");//No es de la misma clase
         }
     }
 }
