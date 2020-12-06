@@ -22,7 +22,26 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a291377-ed8e-4e73-a96d-9b737ba73d12" name="Default Changelist" comment="JUnit&#10;JMenu&#10;Hilos" />
+    <list default="true" id="8a291377-ed8e-4e73-a96d-9b737ba73d12" name="Default Changelist" comment=".">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apuntes/production/Apuntes/BD/BDConceptos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apuntes/production/Apuntes/BD/BDOperaciones.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apuntes/production/Apuntes/Componentes/JFileChooser$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apuntes/production/Apuntes/Componentes/JFileChooser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apuntes/production/Apuntes/Componentes/JList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apuntes/production/Apuntes/Componentes/JTable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apuntes/production/Apuntes/EscrituraEnFicheros/FicherosBinarios.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apuntes/production/Apuntes/EscrituraEnFicheros/FicherosDeTexto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apuntes/production/Apuntes/EscrituraEnFicheros/Log.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apuntes/production/Apuntes/EstructurasDeDatos/Colections.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apuntes/production/Apuntes/Expresiones/Lambda.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apuntes/production/Apuntes/JUnit/JUnit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apuntes/production/Apuntes/Layout/BoxLayout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apuntes/production/Apuntes/Operadores/Operadores.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apuntes/production/Apuntes/Recursividad/Recursividad.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apuntes/src/Expresiones/Lambda.java" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/src/Expresiones/Lambda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/JUnit/JUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/JUnit/JUnitTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,7 +97,7 @@
       <recent name="$PROJECT_DIR$/Apuntes" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Operadores">
+  <component name="RunManager" selected="JUnit.JUnitTest">
     <configuration name="BD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BD.BD" />
       <module name="Apuntes" />
@@ -118,8 +137,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JUnitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JUnitTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JUnitTest" />
         <item itemvalue="Application.Operadores" />
         <item itemvalue="Application.BD" />
       </list>
@@ -288,7 +317,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607284131335</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="JUnit, JMenu, Hilos">
+      <created>1607284520049</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1607284520049</updated>
+    </task>
+    <task id="LOCAL-00024" summary=".">
+      <created>1607284583114</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1607284583114</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -322,9 +365,10 @@
     <MESSAGE value="d" />
     <MESSAGE value="Apuntes BD" />
     <MESSAGE value="Modificando EstructurasDeDatos" />
-    <MESSAGE value="." />
     <MESSAGE value="JUnit&#10;JMenu&#10;Hilos" />
-    <option name="LAST_COMMIT_MESSAGE" value="JUnit&#10;JMenu&#10;Hilos" />
+    <MESSAGE value="JUnit, JMenu, Hilos" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="86" key="#Plugins" timestamp="1605823916998">
@@ -366,29 +410,33 @@
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="100" y="125" width="1240" height="675" key="DiffContextDialog/0.25.1440.875@0.25.1440.875" timestamp="1605724450915" />
-    <state width="1398" height="206" key="GridCell.Tab.0.bottom" timestamp="1605832986171">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1259" height="257" key="GridCell.Tab.0.bottom" timestamp="1607295018793">
+      <screen x="1440" y="0" width="2560" height="1080" />
     </state>
     <state width="1398" height="228" key="GridCell.Tab.0.bottom/0.25.1440.875@0.25.1440.875" timestamp="1605727433982" />
     <state width="1398" height="206" key="GridCell.Tab.0.bottom/1440.0.2560.1080/0.0.1440.900@0.0.1440.900" timestamp="1605832986171" />
+    <state width="1259" height="257" key="GridCell.Tab.0.bottom/1440.0.2560.1080/0.0.1440.900@1440.0.2560.1080" timestamp="1607295018793" />
     <state width="1398" height="228" key="GridCell.Tab.0.bottom/1440.25.2560.1055/0.25.1440.875@0.25.1440.875" timestamp="1605809331123" />
-    <state width="1398" height="206" key="GridCell.Tab.0.center" timestamp="1605832986169">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1259" height="257" key="GridCell.Tab.0.center" timestamp="1607295018788">
+      <screen x="1440" y="0" width="2560" height="1080" />
     </state>
     <state width="1398" height="228" key="GridCell.Tab.0.center/0.25.1440.875@0.25.1440.875" timestamp="1605727433982" />
     <state width="1398" height="206" key="GridCell.Tab.0.center/1440.0.2560.1080/0.0.1440.900@0.0.1440.900" timestamp="1605832986169" />
+    <state width="1259" height="257" key="GridCell.Tab.0.center/1440.0.2560.1080/0.0.1440.900@1440.0.2560.1080" timestamp="1607295018788" />
     <state width="1398" height="228" key="GridCell.Tab.0.center/1440.25.2560.1055/0.25.1440.875@0.25.1440.875" timestamp="1605809331122" />
-    <state width="1398" height="206" key="GridCell.Tab.0.left" timestamp="1605832986167">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1259" height="257" key="GridCell.Tab.0.left" timestamp="1607295018787">
+      <screen x="1440" y="0" width="2560" height="1080" />
     </state>
     <state width="1398" height="228" key="GridCell.Tab.0.left/0.25.1440.875@0.25.1440.875" timestamp="1605727433982" />
     <state width="1398" height="206" key="GridCell.Tab.0.left/1440.0.2560.1080/0.0.1440.900@0.0.1440.900" timestamp="1605832986167" />
+    <state width="1259" height="257" key="GridCell.Tab.0.left/1440.0.2560.1080/0.0.1440.900@1440.0.2560.1080" timestamp="1607295018787" />
     <state width="1398" height="228" key="GridCell.Tab.0.left/1440.25.2560.1055/0.25.1440.875@0.25.1440.875" timestamp="1605809331121" />
-    <state width="1398" height="206" key="GridCell.Tab.0.right" timestamp="1605832986170">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1259" height="257" key="GridCell.Tab.0.right" timestamp="1607295018792">
+      <screen x="1440" y="0" width="2560" height="1080" />
     </state>
     <state width="1398" height="228" key="GridCell.Tab.0.right/0.25.1440.875@0.25.1440.875" timestamp="1605727433982" />
     <state width="1398" height="206" key="GridCell.Tab.0.right/1440.0.2560.1080/0.0.1440.900@0.0.1440.900" timestamp="1605832986170" />
+    <state width="1259" height="257" key="GridCell.Tab.0.right/1440.0.2560.1080/0.0.1440.900@1440.0.2560.1080" timestamp="1607295018792" />
     <state width="1398" height="228" key="GridCell.Tab.0.right/1440.25.2560.1055/0.25.1440.875@0.25.1440.875" timestamp="1605809331122" />
     <state x="591" y="187" key="RollbackChangesDialog" timestamp="1605724352895">
       <screen x="0" y="25" width="1440" height="875" />
@@ -404,10 +452,10 @@
     <state x="0" y="0" key="SettingsEditor/1440.25.2560.1055/0.0.1440.900@0.0.1440.900" timestamp="1605817730367" />
     <state x="1440" y="25" key="SettingsEditor/1440.25.2560.1055/0.0.1440.900@1440.25.2560.1055" timestamp="1605823204574" />
     <state x="0" y="25" key="SettingsEditor/1440.25.2560.1055/0.25.1440.875@0.25.1440.875" timestamp="1605810747880" />
-    <state x="320" y="183" key="Vcs.Push.Dialog.v2" timestamp="1607284178615">
+    <state x="320" y="183" key="Vcs.Push.Dialog.v2" timestamp="1607284587042">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="183" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1607284178615" />
+    <state x="320" y="183" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1607284587042" />
     <state x="320" y="203" key="Vcs.Push.Dialog.v2/0.25.1440.875@0.25.1440.875" timestamp="1605614110355" />
     <state x="320" y="183" key="Vcs.Push.Dialog.v2/1440.0.2560.1080/0.0.1440.900@0.0.1440.900" timestamp="1605828311927" />
     <state x="320" y="201" key="Vcs.Push.Dialog.v2/1440.23.2560.1057/0.23.1440.877@0.23.1440.877" timestamp="1605403161043" />

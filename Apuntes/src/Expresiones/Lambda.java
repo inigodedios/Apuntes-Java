@@ -14,7 +14,7 @@ public class Lambda {
                 (ActionEvent e) -> {proceso ();} //TODO por que error? Debe ser static los metodos?
 
 //    TODO
-
+        );
 
     }
 
