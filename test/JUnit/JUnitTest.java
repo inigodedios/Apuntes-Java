@@ -20,7 +20,6 @@ public class JUnitTest {
      *@BeforeClass
      *Se ejecuta una sola vez antes de ejecutar todos los tests de la clase. Se utilizarán para crear estructuras de
      * datos y componentes que vayan a ser necesarios para todas las pruebas. Los métodos marcados con esta anotación
-     * deben ser estáticos.
      *
      *@AfterClass
      * Se ejecuta una única vez después de todos los tests de la clase. Nos servirá para liberar los recursos
@@ -43,7 +42,11 @@ public class JUnitTest {
      * fail([mensaje]); --> Hace que el método falle. Debería ser utilizado solo para comprobar que una parte del código de test no se ejecute o para hacer fallar un test no implementado.
      */
 
-
+    //Prueba
+    @Test
+    void test1() {
+        assertEquals('c', 'i');
+    }
 
 
 

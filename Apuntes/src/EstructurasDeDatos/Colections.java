@@ -1,57 +1,100 @@
 package EstructurasDeDatos;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.TreeMap;
-import java.util.TreeSet;
+import java.util.*;
 
 public class Colections {
 
-	//Lista de elementos que no tiene orden y puede haber elementos repetidos
 	public Colections(){
 
+		//ARRAYLIST
 		//Lista de elementos que no tiene orden y puede haber elementos repetidos
-		ArrayList<Integer> a = new ArrayList<>();
-		a.add(new Integer(3)); //Añade al final
+		ArrayList<Integer> al = new ArrayList<>();
+		al.add(new Integer(3)); //Añade al final
 		Integer i2 = new Integer(34);
-		a.add(i2);
-		a.set(0, new Integer(3)); //Especificamos la posición
+		al.add(i2);
+		al.set(0, new Integer(3)); //Especificamos la posición
 
-		//Lista de elementos que no se repitan (set: TreeSet, HashSet)
+		for (int i=0;i<al.size();i++) {
+			System.out.println(al.get(i));
+		}
+		Iterator<Integer> it= al.iterator();
+		while(it.hasNext()) {
+			System.out.println(it.next());
+		}
+		for (Integer num: al) {
+			System.out.println(num);
+		}
+
+
+		//TREESET Y HASHSET
+		//Lista de elementos que no se repitan (set: TreeSet, HashSet). DEBEMOS OVERRIDE EQUALS, HASHCODE Y COMPARETO
 			/*TreeSet -->
 			- Rapido
 			- No permite elementos iguales
-			- SÍ se puede ordenar alfabeticamente!!
+			- Solo se puede ordenar alfabeticamente!!
 			- No se puede acceder por indice, pero si se puede recorrer (for - each)
 			*/
 
 			/*HashSet -->
 			- Rapido
 			- No permite elementos iguales
-			- NO se puede ordenar alfabeticamente!!
+			- NO se puede ordenar!!
 			- No se puede acceder por indice, pero si se puede recorrer (for - each)
 				 */
 
-		//DEBEMOS OVERRIDE EQUALS Y HASHCODE
-
 		TreeSet<Integer> ts = new TreeSet<>();
 		ts.add(new Integer(4));
-		ts.add(new Integer(1));
+		ts.remove(4);
 
 		HashSet<Integer> hs = new HashSet<>();
 		hs.add(new Integer(4));
-		hs.add(new Integer(1));
+		hs.remove(4);
+
+		//Igual para HashSet y TreeSet
+		Iterator iter = hs.iterator();
+		while (iter.hasNext()) {
+			System.out.println(iter.next());
+		}
+		for (Integer h : hs) {
+			System.out.println(h);
+		}
 
 
-		//Lista de elementos identificados por una clave (map: TreeMap, HashMap) TODO
-		//TreeMap -->
-		//HashMap -->
-		//DEBEMOS OVERRIDE EQUALS Y HASHCODE
+
+		//TREEMAP Y HASHMAP
+		//Lista de elementos identificados por una clave (map: TreeMap, HashMap). DEBEMOS OVERRIDE EQUALS, HASHCODE Y COMPARETO
+		/*TreeMap -->
+		- Ordenados por clave
+		- Si permite elementos iguales --> por referencia
+		 */
+
+		/*HashMap -->
+		- Ordenados por clave
+		- Si permite elementos iguales --> por referencia
+		 */
 
 		TreeMap<String, Integer> tm = new TreeMap<>();
-		tm.put("tres", new Integer(3));
-		tm.put("tres", new Integer(4)); //Se sobreescribe el valor 3
-		tm.put("cuatro", new Integer(15));
+		HashMap<String, Integer> hm = new HashMap<>();
+		//Mismos metodos (más o menos) para un TreeMap y un HashMap
+		hm.put("tres", new Integer(4));
+		hm.put("tres", new Integer(4)); //Se sobreescribe el valor 3 //TODO, BIEN?
+		hm.get("tres");
+		hm.containsKey("tres"); //Más eficiente que el get
+		hm.remove("tres");
+
+		//Igual para un HashMap y TreeMap
+		for(Map.Entry<String,Integer> entry : tm.entrySet()) {
+			String key = entry.getKey();
+			Integer value = entry.getValue();
+			System.out.println(key + " => " + value);
+		}
+		for (Object value : tm.values()) {
+			System.out.println("Value" + value);
+		}
+		for (Object key : tm.keySet()) {
+			System.out.println("Key" + key);
+		}
+
 
 	}
 

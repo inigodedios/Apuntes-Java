@@ -15,11 +15,9 @@ public class FicherosBinarios  implements Serializable{
         try {
             oos = new ObjectOutputStream(new FileOutputStream("Coches.dat"));
             oos.writeObject(ts); //Escribimos. El objeto debe ser SERIALIZABLE. SE DEBE IMPORTAR SERIALIZABLE
-        } catch (FileNotFoundException e) {
+        } catch (IOException e) {
             e.printStackTrace();
-        } catch (IOException e) { //TODO Porque error
-            e.printStackTrace();
-        } finally {
+        }finally{
             try {
                 if (oos != null) {
                     oos.flush(); //Liberar buffer

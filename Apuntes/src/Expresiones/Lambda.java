@@ -11,12 +11,8 @@ public class Lambda {
 
         //ActionListener's --SOLO SIRVE CUANDO LA INTERFAZ SOLO IMPLEMENTA UN MÉTODO
         b.addActionListener (
-                (ActionEvent e) -> {proceso ();} //TODO por que error? Debe ser static los metodos?
-
-//    TODO
+                (ActionEvent e) -> proceso ()
         );
-
     }
-
-    public static void proceso(){};
+    public static void proceso(){}; //Static!!
 }

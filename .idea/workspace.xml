@@ -24,21 +24,8 @@
   <component name="ChangeListManager">
     <list default="true" id="8a291377-ed8e-4e73-a96d-9b737ba73d12" name="Default Changelist" comment=".">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/production/Apuntes/BD/BDConceptos.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/production/Apuntes/BD/BDOperaciones.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/production/Apuntes/Componentes/JFileChooser$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/production/Apuntes/Componentes/JFileChooser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/production/Apuntes/Componentes/JList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/production/Apuntes/Componentes/JTable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/production/Apuntes/EscrituraEnFicheros/FicherosBinarios.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/production/Apuntes/EscrituraEnFicheros/FicherosDeTexto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/production/Apuntes/EscrituraEnFicheros/Log.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/production/Apuntes/EstructurasDeDatos/Colections.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/production/Apuntes/Expresiones/Lambda.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/production/Apuntes/JUnit/JUnit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/production/Apuntes/Layout/BoxLayout.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/production/Apuntes/Operadores/Operadores.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/production/Apuntes/Recursividad/Recursividad.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apuntes/src/EscrituraEnFicheros/FicherosBinarios.java" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/src/EscrituraEnFicheros/FicherosBinarios.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apuntes/src/EstructurasDeDatos/Colections.java" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/src/EstructurasDeDatos/Colections.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Apuntes/src/Expresiones/Lambda.java" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/src/Expresiones/Lambda.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/JUnit/JUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/JUnit/JUnitTest.java" afterDir="false" />
     </list>
@@ -57,6 +44,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1kIzw1JSwGo4SQuHUqDmCv21UZT" />
   <component name="ProjectLevelVcsManager">
@@ -410,33 +398,33 @@
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="100" y="125" width="1240" height="675" key="DiffContextDialog/0.25.1440.875@0.25.1440.875" timestamp="1605724450915" />
-    <state width="1259" height="257" key="GridCell.Tab.0.bottom" timestamp="1607295018793">
+    <state width="1259" height="257" key="GridCell.Tab.0.bottom" timestamp="1607296047232">
       <screen x="1440" y="0" width="2560" height="1080" />
     </state>
     <state width="1398" height="228" key="GridCell.Tab.0.bottom/0.25.1440.875@0.25.1440.875" timestamp="1605727433982" />
     <state width="1398" height="206" key="GridCell.Tab.0.bottom/1440.0.2560.1080/0.0.1440.900@0.0.1440.900" timestamp="1605832986171" />
-    <state width="1259" height="257" key="GridCell.Tab.0.bottom/1440.0.2560.1080/0.0.1440.900@1440.0.2560.1080" timestamp="1607295018793" />
+    <state width="1259" height="257" key="GridCell.Tab.0.bottom/1440.0.2560.1080/0.0.1440.900@1440.0.2560.1080" timestamp="1607296047232" />
     <state width="1398" height="228" key="GridCell.Tab.0.bottom/1440.25.2560.1055/0.25.1440.875@0.25.1440.875" timestamp="1605809331123" />
-    <state width="1259" height="257" key="GridCell.Tab.0.center" timestamp="1607295018788">
+    <state width="1259" height="257" key="GridCell.Tab.0.center" timestamp="1607296047230">
       <screen x="1440" y="0" width="2560" height="1080" />
     </state>
     <state width="1398" height="228" key="GridCell.Tab.0.center/0.25.1440.875@0.25.1440.875" timestamp="1605727433982" />
     <state width="1398" height="206" key="GridCell.Tab.0.center/1440.0.2560.1080/0.0.1440.900@0.0.1440.900" timestamp="1605832986169" />
-    <state width="1259" height="257" key="GridCell.Tab.0.center/1440.0.2560.1080/0.0.1440.900@1440.0.2560.1080" timestamp="1607295018788" />
+    <state width="1259" height="257" key="GridCell.Tab.0.center/1440.0.2560.1080/0.0.1440.900@1440.0.2560.1080" timestamp="1607296047230" />
     <state width="1398" height="228" key="GridCell.Tab.0.center/1440.25.2560.1055/0.25.1440.875@0.25.1440.875" timestamp="1605809331122" />
-    <state width="1259" height="257" key="GridCell.Tab.0.left" timestamp="1607295018787">
+    <state width="1259" height="257" key="GridCell.Tab.0.left" timestamp="1607296047228">
       <screen x="1440" y="0" width="2560" height="1080" />
     </state>
     <state width="1398" height="228" key="GridCell.Tab.0.left/0.25.1440.875@0.25.1440.875" timestamp="1605727433982" />
     <state width="1398" height="206" key="GridCell.Tab.0.left/1440.0.2560.1080/0.0.1440.900@0.0.1440.900" timestamp="1605832986167" />
-    <state width="1259" height="257" key="GridCell.Tab.0.left/1440.0.2560.1080/0.0.1440.900@1440.0.2560.1080" timestamp="1607295018787" />
+    <state width="1259" height="257" key="GridCell.Tab.0.left/1440.0.2560.1080/0.0.1440.900@1440.0.2560.1080" timestamp="1607296047228" />
     <state width="1398" height="228" key="GridCell.Tab.0.left/1440.25.2560.1055/0.25.1440.875@0.25.1440.875" timestamp="1605809331121" />
-    <state width="1259" height="257" key="GridCell.Tab.0.right" timestamp="1607295018792">
+    <state width="1259" height="257" key="GridCell.Tab.0.right" timestamp="1607296047231">
       <screen x="1440" y="0" width="2560" height="1080" />
     </state>
     <state width="1398" height="228" key="GridCell.Tab.0.right/0.25.1440.875@0.25.1440.875" timestamp="1605727433982" />
     <state width="1398" height="206" key="GridCell.Tab.0.right/1440.0.2560.1080/0.0.1440.900@0.0.1440.900" timestamp="1605832986170" />
-    <state width="1259" height="257" key="GridCell.Tab.0.right/1440.0.2560.1080/0.0.1440.900@1440.0.2560.1080" timestamp="1607295018792" />
+    <state width="1259" height="257" key="GridCell.Tab.0.right/1440.0.2560.1080/0.0.1440.900@1440.0.2560.1080" timestamp="1607296047231" />
     <state width="1398" height="228" key="GridCell.Tab.0.right/1440.25.2560.1055/0.25.1440.875@0.25.1440.875" timestamp="1605809331122" />
     <state x="591" y="187" key="RollbackChangesDialog" timestamp="1605724352895">
       <screen x="0" y="25" width="1440" height="875" />
@@ -460,11 +448,12 @@
     <state x="320" y="183" key="Vcs.Push.Dialog.v2/1440.0.2560.1080/0.0.1440.900@0.0.1440.900" timestamp="1605828311927" />
     <state x="320" y="201" key="Vcs.Push.Dialog.v2/1440.23.2560.1057/0.23.1440.877@0.23.1440.877" timestamp="1605403161043" />
     <state x="320" y="203" key="Vcs.Push.Dialog.v2/1440.25.2560.1055/0.25.1440.875@0.25.1440.875" timestamp="1605827661988" />
-    <state x="518" y="383" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605810771154">
-      <screen x="0" y="25" width="1440" height="875" />
+    <state x="2361" y="442" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607295610144">
+      <screen x="1440" y="0" width="2560" height="1080" />
     </state>
     <state x="518" y="368" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1605443975214" />
     <state x="518" y="383" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1440.875@0.25.1440.875" timestamp="1605614236771" />
+    <state x="2361" y="442" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1440.0.2560.1080/0.0.1440.900@1440.0.2560.1080" timestamp="1607295610144" />
     <state x="518" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1440.23.2560.1057/0.23.1440.877@0.23.1440.877" timestamp="1605403221462" />
     <state x="518" y="383" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1440.25.2560.1055/0.25.1440.875@0.25.1440.875" timestamp="1605810771154" />
     <state x="2495" y="351" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1607277091955">
@@ -479,18 +468,22 @@
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="422" y="107" width="595" height="711" key="find.popup/1440.25.2560.1055/0.25.1440.875@0.25.1440.875" timestamp="1605810664249" />
-    <state x="2069" y="75" key="new project wizard" timestamp="1607276985105">
+    <state width="600" height="440" key="javadoc.popup" timestamp="1607296086498">
+      <screen x="1440" y="0" width="2560" height="1080" />
+    </state>
+    <state width="600" height="440" key="javadoc.popup/1440.0.2560.1080/0.0.1440.900@1440.0.2560.1080" timestamp="1607296086498" />
+    <state x="2069" y="75" key="new project wizard" timestamp="1607295703359">
       <screen x="1440" y="0" width="2560" height="1080" />
     </state>
     <state x="354" y="86" key="new project wizard/0.25.1440.875@0.25.1440.875" timestamp="1605725140834" />
-    <state x="2069" y="75" key="new project wizard/1440.0.2560.1080/0.0.1440.900@1440.0.2560.1080" timestamp="1607276985105" />
+    <state x="2069" y="75" key="new project wizard/1440.0.2560.1080/0.0.1440.900@1440.0.2560.1080" timestamp="1607295703359" />
     <state x="354" y="84" key="new project wizard/1440.23.2560.1057/0.23.1440.877@0.23.1440.877" timestamp="1605403756430" />
-    <state x="385" y="194" width="670" height="696" key="search.everywhere.popup" timestamp="1605828585966">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="2124" y="233" width="1192" height="836" key="search.everywhere.popup" timestamp="1607297338410">
+      <screen x="1440" y="0" width="2560" height="1080" />
     </state>
     <state x="385" y="214" width="670" height="676" key="search.everywhere.popup/0.25.1440.875@0.25.1440.875" timestamp="1605616343313" />
     <state x="385" y="194" width="670" height="696" key="search.everywhere.popup/1440.0.2560.1080/0.0.1440.900@0.0.1440.900" timestamp="1605828585966" />
-    <state x="2124" y="233" width="1192" height="836" key="search.everywhere.popup/1440.0.2560.1080/0.0.1440.900@1440.0.2560.1080" timestamp="1605811642192" />
+    <state x="2124" y="233" width="1192" height="836" key="search.everywhere.popup/1440.0.2560.1080/0.0.1440.900@1440.0.2560.1080" timestamp="1607297338410" />
     <state x="385" y="194" width="670" height="696" key="search.everywhere.popup/1440.25.2560.1055/0.0.1440.900@0.0.1440.900" timestamp="1605823528341" />
     <state x="385" y="214" width="670" height="676" key="search.everywhere.popup/1440.25.2560.1055/0.25.1440.875@0.25.1440.875" timestamp="1605809258463" />
     <state x="450" y="360" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1605828442369">
