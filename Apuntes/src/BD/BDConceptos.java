@@ -63,6 +63,8 @@ public class BDConceptos {
         }
     }
 
+
+
     /** Cierra la base de datos abierta
      * @param con	Conexión abierta de la BD
      * @param st	Sentencia abierta de la BD

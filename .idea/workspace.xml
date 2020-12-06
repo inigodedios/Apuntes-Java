@@ -23,17 +23,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a291377-ed8e-4e73-a96d-9b737ba73d12" name="Default Changelist" comment=".">
-      <change afterPath="$PROJECT_DIR$/Apuntes/src/Expresiones/Lambda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Apuntes/src/Operadores/Operadores.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_4_13_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sqlite_jdbc_3_14_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apuntes/src/Componentes/JMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apuntes/src/Hilos/Hilos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/JUnit/JUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Apuntes-Java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Apuntes-Java.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/production/Apuntes/BD/BDOperaciones.class" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/production/Apuntes/BD/BDOperaciones.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/production/Apuntes/EscrituraEnFicheros/FicherosBinarios.class" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/production/Apuntes/EscrituraEnFicheros/FicherosBinarios.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/production/Apuntes/EscrituraEnFicheros/FicherosDeTexto.class" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/production/Apuntes/EscrituraEnFicheros/FicherosDeTexto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/src/BD/BDOperaciones.java" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/src/BD/BDOperaciones.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/src/Componentes/JFileChooser.java" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/src/Componentes/JFileChooser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/src/EscrituraEnFicheros/FicherosBinarios.java" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/src/EscrituraEnFicheros/FicherosBinarios.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/src/EscrituraEnFicheros/FicherosDeTexto.java" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/src/EscrituraEnFicheros/FicherosDeTexto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apuntes/src/BD/BDConceptos.java" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/src/BD/BDConceptos.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Apuntes/src/EscrituraEnFicheros/Log.java" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/src/EscrituraEnFicheros/Log.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apuntes/src/JUnit/JUnit.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +44,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit4 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -62,9 +64,12 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="jdk.selected.JAVA_MODULE" value="openjdk-15" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -72,6 +77,12 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="prueba" />
     </key>
@@ -320,11 +331,12 @@
     <state x="320" y="109" key="#Plugins/0.25.1440.875@0.25.1440.875" timestamp="1605616258896" />
     <state x="320" y="86" key="#Plugins/1440.0.2560.1080/0.0.1440.900@0.0.1440.900" timestamp="1605823916998" />
     <state x="206" y="91" key="#Plugins/1440.0.2560.1080/0.25.1440.875@1440.0.2560.1080" timestamp="1605811716176" />
-    <state x="208" y="49" key="#Project_Structure" timestamp="1605809882903">
-      <screen x="0" y="25" width="1440" height="875" />
+    <state x="1810" y="30" key="#Project_Structure" timestamp="1607277057283">
+      <screen x="1440" y="0" width="2560" height="1080" />
     </state>
     <state x="208" y="25" key="#Project_Structure/0.0.1440.900@0.0.1440.900" timestamp="1605611948207" />
     <state x="208" y="45" key="#Project_Structure/0.25.1440.875@0.25.1440.875" timestamp="1605443872504" />
+    <state x="1810" y="30" key="#Project_Structure/1440.0.2560.1080/0.0.1440.900@1440.0.2560.1080" timestamp="1607277057283" />
     <state x="208" y="43" key="#Project_Structure/1440.23.2560.1057/0.23.1440.877@0.23.1440.877" timestamp="1605403764258" />
     <state x="208" y="49" key="#Project_Structure/1440.25.2560.1055/0.25.1440.875@0.25.1440.875" timestamp="1605809882903" />
     <state x="183" y="110" width="1071" height="706" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605828348521">
@@ -344,6 +356,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="467" y="300" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/1440.0.2560.1080/0.0.1440.900@0.0.1440.900" timestamp="1605812471807" />
+    <state x="1729" y="303" key="DetectedRootsChooserDialog" timestamp="1607276776507">
+      <screen x="1440" y="0" width="2560" height="1080" />
+    </state>
+    <state x="1729" y="303" key="DetectedRootsChooserDialog/1440.0.2560.1080/0.0.1440.900@1440.0.2560.1080" timestamp="1607276776507" />
     <state x="100" y="125" width="1240" height="675" key="DiffContextDialog" timestamp="1605724450915">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
@@ -376,13 +392,13 @@
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="591" y="187" key="RollbackChangesDialog/0.25.1440.875@0.25.1440.875" timestamp="1605724352895" />
-    <state x="0" y="0" width="1440" height="875" key="SettingsEditor" timestamp="1605832563068">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="1440" y="0" width="1440" height="875" key="SettingsEditor" timestamp="1607276817142">
+      <screen x="1440" y="0" width="2560" height="1080" />
     </state>
     <state x="229" y="86" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1605606977372" />
     <state x="0" y="25" width="1440" height="875" key="SettingsEditor/0.25.1440.875@0.25.1440.875" timestamp="1605727520124" />
     <state x="0" y="0" key="SettingsEditor/1440.0.2560.1080/0.0.1440.900@0.0.1440.900" timestamp="1605832563068" />
-    <state x="1440" y="0" key="SettingsEditor/1440.0.2560.1080/0.0.1440.900@1440.0.2560.1080" timestamp="1605811807343" />
+    <state x="1440" y="0" key="SettingsEditor/1440.0.2560.1080/0.0.1440.900@1440.0.2560.1080" timestamp="1607276817142" />
     <state x="0" y="0" key="SettingsEditor/1440.25.2560.1055/0.0.1440.900@0.0.1440.900" timestamp="1605817730367" />
     <state x="1440" y="25" key="SettingsEditor/1440.25.2560.1055/0.0.1440.900@1440.25.2560.1055" timestamp="1605823204574" />
     <state x="0" y="25" key="SettingsEditor/1440.25.2560.1055/0.25.1440.875@0.25.1440.875" timestamp="1605810747880" />
@@ -401,6 +417,10 @@
     <state x="518" y="383" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1440.875@0.25.1440.875" timestamp="1605614236771" />
     <state x="518" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1440.23.2560.1057/0.23.1440.877@0.23.1440.877" timestamp="1605403221462" />
     <state x="518" y="383" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1440.25.2560.1055/0.25.1440.875@0.25.1440.875" timestamp="1605810771154" />
+    <state x="2495" y="351" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1607277091955">
+      <screen x="1440" y="0" width="2560" height="1080" />
+    </state>
+    <state x="2495" y="351" key="com.intellij.testIntegration.createTest.CreateTestDialog/1440.0.2560.1080/0.0.1440.900@1440.0.2560.1080" timestamp="1607277091955" />
     <state x="1954" y="296" width="1152" height="641" key="dock-window-1" timestamp="1605829091514">
       <screen x="1440" y="0" width="2560" height="1080" />
     </state>
@@ -409,10 +429,11 @@
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="422" y="107" width="595" height="711" key="find.popup/1440.25.2560.1055/0.25.1440.875@0.25.1440.875" timestamp="1605810664249" />
-    <state x="354" y="86" key="new project wizard" timestamp="1605725140834">
-      <screen x="0" y="25" width="1440" height="875" />
+    <state x="2069" y="75" key="new project wizard" timestamp="1607276985105">
+      <screen x="1440" y="0" width="2560" height="1080" />
     </state>
     <state x="354" y="86" key="new project wizard/0.25.1440.875@0.25.1440.875" timestamp="1605725140834" />
+    <state x="2069" y="75" key="new project wizard/1440.0.2560.1080/0.0.1440.900@1440.0.2560.1080" timestamp="1607276985105" />
     <state x="354" y="84" key="new project wizard/1440.23.2560.1057/0.23.1440.877@0.23.1440.877" timestamp="1605403756430" />
     <state x="385" y="194" width="670" height="696" key="search.everywhere.popup" timestamp="1605828585966">
       <screen x="0" y="0" width="1440" height="900" />
