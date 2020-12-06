@@ -22,20 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a291377-ed8e-4e73-a96d-9b737ba73d12" name="Default Changelist" comment=".">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_4_13_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sqlite_jdbc_3_14_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Apuntes/src/Componentes/JMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Apuntes/src/Hilos/Hilos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/JUnit/JUnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Apuntes-Java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Apuntes-Java.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/src/BD/BDConceptos.java" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/src/BD/BDConceptos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/src/EscrituraEnFicheros/Log.java" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/src/EscrituraEnFicheros/Log.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/src/JUnit/JUnit.java" beforeDir="false" />
-    </list>
+    <list default="true" id="8a291377-ed8e-4e73-a96d-9b737ba73d12" name="Default Changelist" comment="JUnit&#10;JMenu&#10;Hilos" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -287,7 +274,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605828388530</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="JUnit&#10;JMenu&#10;Hilos">
+      <created>1607283976276</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1607283976276</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -322,7 +316,8 @@
     <MESSAGE value="Apuntes BD" />
     <MESSAGE value="Modificando EstructurasDeDatos" />
     <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <MESSAGE value="JUnit&#10;JMenu&#10;Hilos" />
+    <option name="LAST_COMMIT_MESSAGE" value="JUnit&#10;JMenu&#10;Hilos" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="86" key="#Plugins" timestamp="1605823916998">
