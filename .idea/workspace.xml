@@ -22,11 +22,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a291377-ed8e-4e73-a96d-9b737ba73d12" name="Default Changelist" comment="JMenu.java Con errores aún">
-      <change afterPath="$PROJECT_DIR$/Apuntes/src/Utils/Dates.java" afterDir="false" />
+    <list default="true" id="8a291377-ed8e-4e73-a96d-9b737ba73d12" name="Default Changelist" comment="Hilos.java&#10;Ejemplos cambio de color">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/src/Hilos/Hilos.java" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/src/Hilos/Hilos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/src/Layout/BoxLayout.java" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/src/Layout/BoxLayout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apuntes/src/Componentes/JTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/src/Componentes/JTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apuntes/test/test/JUnitTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -366,7 +365,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607301198854</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Hilos.java&#10;Ejemplos cambio de color">
+      <created>1607302514356</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1607302514356</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -406,7 +412,8 @@
     <MESSAGE value="Colecciones" />
     <MESSAGE value="Correciones en la clase Operadores.java" />
     <MESSAGE value="JMenu.java Con errores aún" />
-    <option name="LAST_COMMIT_MESSAGE" value="JMenu.java Con errores aún" />
+    <MESSAGE value="Hilos.java&#10;Ejemplos cambio de color" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hilos.java&#10;Ejemplos cambio de color" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="86" key="#Plugins" timestamp="1605823916998">
