@@ -18,7 +18,7 @@ public class JFileChooser {
                 fc.setCurrentDirectory(directorio);
                 fc.setFileFilter(new FileNameExtensionFilter("TIPO JPG", "jpg"));
                 fc.setFileFilter(new FileNameExtensionFilter("TIPO PNG", "png"));
-                int sel = fc.showOpenDialog(btnBuscarFoto);
+                int sel = fc.showOpenDialog(btnBuscarFoto); //Cuando clickamos el boton buscarFoto abre el explorador de archivo
                 if (sel == javax.swing.JFileChooser.APPROVE_OPTION) {
                     File ficheroSeleccionado = fc.getSelectedFile();
 //                    txtRuta.setText("imagenes/" + ficheroSeleccionado.getName()); //TODO error?

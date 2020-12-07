@@ -2,7 +2,7 @@ package EstructurasDeDatos;
 
 import java.util.*;
 
-public class Colections {
+public class Colections implements Comparator<Object>{
 
 	public Colections(){
 
@@ -33,6 +33,7 @@ public class Colections {
 			- No permite elementos iguales
 			- Solo se puede ordenar alfabeticamente!!
 			- No se puede acceder por indice, pero si se puede recorrer (for - each)
+			- OBLIGATORIO IMPLEMENTAR COMPARABLE
 			*/
 
 			/*HashSet -->
@@ -40,7 +41,7 @@ public class Colections {
 			- No permite elementos iguales
 			- NO se puede ordenar!!
 			- No se puede acceder por indice, pero si se puede recorrer (for - each)
-				 */
+			*/
 
 		TreeSet<Integer> ts = new TreeSet<>();
 		ts.add(new Integer(4));
@@ -65,12 +66,14 @@ public class Colections {
 		//Lista de elementos identificados por una clave (map: TreeMap, HashMap). DEBEMOS OVERRIDE EQUALS, HASHCODE Y COMPARETO
 		/*TreeMap -->
 		- Ordenados por clave
-		- Si permite elementos iguales --> por referencia
+		- Si permite valores iguales, pero no claves
+		- Si no se indica nada, el TreeMap se ordena SIEMPRE por clave
 		 */
 
 		/*HashMap -->
 		- Ordenados por clave
-		- Si permite elementos iguales --> por referencia
+		- Si permite valores iguales, pero no claves
+		- No se ordena por defecto
 		 */
 
 		TreeMap<String, Integer> tm = new TreeMap<>();
@@ -98,4 +101,8 @@ public class Colections {
 
 	}
 
+	@Override
+	public int compare(Object o1, Object o2) {
+		return 0;
+	}
 }

@@ -1,6 +1,10 @@
 package Componentes;
 
+import javax.swing.JMenu;
+import javax.swing.JMenuItem;
+import javax.swing.JMenuBar;
 import javax.swing.*;
+
 import java.awt.*;
 import java.awt.event.KeyEvent;
 
@@ -9,7 +13,7 @@ public class JMenu extends JFrame {
 
     private JPanel p;
     private JMenuBar menuBar;
-    private JMenu menu1, menu2, menu3;
+    private JMenu menu1, menu2, menu3, menu4;
     private JMenuItem menuItem11, menuItem21, menuItem31, menuItem32;
 
     public JMenu (){
@@ -20,9 +24,10 @@ public class JMenu extends JFrame {
 
         menuBar = new JMenuBar();
 
-        menu1 = new JMenu(); //TODO
-        menu2 = new JMenu(); menu2.setMnemonic( KeyEvent.VK_V ); //TODO
-        menu3 = new JMenu("Menú 3"); //TODO
+        menu1 = new JMenu("Prueba"); //TODO
+        menu2 = new JMenu(); //menu2.setMnemonic( KeyEvent.VK_V ); //TODO
+        menu3 = new JMenu(); //TODO
+        menu4 = new JMenu();
 
         menuItem11 = new JMenuItem("Item11");
         menuItem21 = new JMenuItem("Item21");
@@ -37,6 +42,10 @@ public class JMenu extends JFrame {
         menu2.add(menuItem21);
         menu3.add(menuItem31);
         menu3.add(menuItem32);
+
+        menuItem11.addActionListener(
+                (e) -> null;
+        );
 
     }
 
