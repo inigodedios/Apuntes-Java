@@ -16,11 +16,11 @@ public class CompareTo implements Comparable <CompareTo>{
     public int compareTo(CompareTo o) {
         //Si comparamos String
         return this.nombre.compareTo(o.nombre); //Vamos a ordenarlo ascendentemente por nombre
-        return this.dni.compareTo(o.dni);//Vamos a ordenarlo ascendentemente por dni
-        return o.dni.compareTo(this.dni); //Ordenado descendentemente por dni
+        //return this.dni.compareTo(o.dni);//Vamos a ordenarlo ascendentemente por dni
+       // return o.dni.compareTo(this.dni); //Ordenado descendentemente por dni
 
         //Si comparamos cualquier atributo que no sea String
-        return this.edad - o.edad; //Ordenado ascendentemente por edad
-        return o.edad - this.edad; //Ordenado descendentemente por edad
+        //return this.edad - o.edad; //Ordenado ascendentemente por edad
+        //return o.edad - this.edad; //Ordenado descendentemente por edad
     }
 }

@@ -22,11 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a291377-ed8e-4e73-a96d-9b737ba73d12" name="Default Changelist" comment=".">
-      <change afterPath="$PROJECT_DIR$/Apuntes/src/Utils/CompareTo.java" afterDir="false" />
+    <list default="true" id="8a291377-ed8e-4e73-a96d-9b737ba73d12" name="Default Changelist" comment="Compareto, Recursividad, Colections">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/src/EstructurasDeDatos/Colections.java" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/src/EstructurasDeDatos/Colections.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/src/Recursividad/Recursividad.java" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/src/Recursividad/Recursividad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apuntes/src/Utils/CompareTo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/src/Utils/CompareTo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -411,7 +409,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607448892487</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Compareto, Recursividad, Colections">
+      <created>1607460259130</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1607460259130</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -452,7 +457,8 @@
     <MESSAGE value="JMenu.java Con errores aún" />
     <MESSAGE value="Hilos.java&#10;Ejemplos cambio de color" />
     <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <MESSAGE value="Compareto, Recursividad, Colections" />
+    <option name="LAST_COMMIT_MESSAGE" value="Compareto, Recursividad, Colections" />
   </component>
   <component name="WindowStateProjectService">
     <state x="451" y="282" key="#Notifications" timestamp="1607445738870">
