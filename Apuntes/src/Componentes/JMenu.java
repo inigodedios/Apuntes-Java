@@ -43,6 +43,8 @@ public class JMenu extends JFrame {
         menu3.add(menuItem31);
         menu3.add(menuItem32);
 
+        setJMenuBar(menuBar);
+
         menuItem11.addActionListener(
                 (e) -> null;
         );
