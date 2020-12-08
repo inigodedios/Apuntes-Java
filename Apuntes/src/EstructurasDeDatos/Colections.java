@@ -86,15 +86,15 @@ public class Colections implements Comparator<Object>{
 		hm.remove("tres");
 
 		//Igual para un HashMap y TreeMap
-		for(Map.Entry<String,Integer> entry : tm.entrySet()) {
+		for(Map.Entry<String,Integer> entry : tm.entrySet()) { //Iterador
 			String key = entry.getKey();
 			Integer value = entry.getValue();
 			System.out.println(key + " => " + value);
 		}
-		for (Object value : tm.values()) {
+		for (Object value : tm.values()) { //Nos da solo los valores
 			System.out.println("Value" + value);
 		}
-		for (Object key : tm.keySet()) {
+		for (Object key : tm.keySet()) { //Nos da solo las claves
 			System.out.println("Key" + key);
 		}
 
