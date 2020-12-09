@@ -23,28 +23,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a291377-ed8e-4e73-a96d-9b737ba73d12" name="Default Changelist" comment="Correccio es JFileChooser">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/production/Apuntes/BD/BDConceptos.class" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/production/Apuntes/BD/BDConceptos.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/production/Apuntes/BD/BDOperaciones.class" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/production/Apuntes/BD/BDOperaciones.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/production/Apuntes/Componentes/JFileChooser$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/production/Apuntes/Componentes/JFileChooser$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/production/Apuntes/Componentes/JFileChooser.class" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/production/Apuntes/Componentes/JFileChooser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/production/Apuntes/Componentes/JList.class" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/production/Apuntes/Componentes/JList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/production/Apuntes/Componentes/JMenu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/production/Apuntes/Componentes/JTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/production/Apuntes/Componentes/JTable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/production/Apuntes/EscrituraEnFicheros/FicherosBinarios.class" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/production/Apuntes/EscrituraEnFicheros/FicherosBinarios.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/production/Apuntes/EscrituraEnFicheros/FicherosDeTexto.class" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/production/Apuntes/EscrituraEnFicheros/FicherosDeTexto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/production/Apuntes/EscrituraEnFicheros/Log.class" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/production/Apuntes/EscrituraEnFicheros/Log.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/production/Apuntes/EstructurasDeDatos/Colections.class" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/production/Apuntes/EstructurasDeDatos/Colections.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/production/Apuntes/Expresiones/Lambda.class" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/production/Apuntes/Expresiones/Lambda.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/production/Apuntes/Hilos/Hilos$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/production/Apuntes/Hilos/Hilos$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/production/Apuntes/Hilos/Hilos.class" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/production/Apuntes/Hilos/Hilos.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/production/Apuntes/Layout/BoxLayout.class" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/production/Apuntes/Layout/BoxLayout.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/production/Apuntes/Operadores/Operadores.class" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/production/Apuntes/Operadores/Operadores.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/production/Apuntes/Recursividad/Recursividad.class" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/production/Apuntes/Recursividad/Recursividad.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/production/Apuntes/Utils/Dates.class" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/production/Apuntes/Utils/Dates.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/src/Componentes/JMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/src/Componentes/JMenu1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/JUnit/JUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/JUnit/JUnitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/test/test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apuntes/src/Componentes/JTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/src/Componentes/JTable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,12 +65,12 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="jdk.selected.JAVA_MODULE" value="openjdk-15" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -575,12 +557,12 @@
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="591" y="187" key="RollbackChangesDialog/0.25.1440.875@0.25.1440.875" timestamp="1605724352895" />
-    <state x="68" y="0" width="1440" height="875" key="SettingsEditor" timestamp="1607335433600">
+    <state x="0" y="0" width="1440" height="875" key="SettingsEditor" timestamp="1607534158471">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="68" y="0" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1607335433600" />
     <state x="0" y="25" width="1440" height="875" key="SettingsEditor/0.25.1440.875@0.25.1440.875" timestamp="1605727520124" />
-    <state x="0" y="0" key="SettingsEditor/1440.0.2560.1080/0.0.1440.900@0.0.1440.900" timestamp="1605832563068" />
+    <state x="0" y="0" key="SettingsEditor/1440.0.2560.1080/0.0.1440.900@0.0.1440.900" timestamp="1607534158471" />
     <state x="1440" y="0" key="SettingsEditor/1440.0.2560.1080/0.0.1440.900@1440.0.2560.1080" timestamp="1607276817142" />
     <state x="0" y="0" key="SettingsEditor/1440.25.2560.1055/0.0.1440.900@0.0.1440.900" timestamp="1605817730367" />
     <state x="1440" y="25" key="SettingsEditor/1440.25.2560.1055/0.0.1440.900@1440.25.2560.1055" timestamp="1605823204574" />
