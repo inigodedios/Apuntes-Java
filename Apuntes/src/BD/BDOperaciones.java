@@ -10,17 +10,13 @@ import static BD.BDConceptos.initBD;
 
 public class BDOperaciones {
 
-    Connection con = initBD("Prueba.db");
-    Statement st = BDConceptos.usarCrearTablasBD(con);
-    cerrarBD(con, st);
-
     /*
      * Nos devuelve  true si existe el usuario
      * */
     public static boolean existeUsuario(String nick) {
         //statement.executeUpdate : Cuando queramos hacer create, insert, delete, update, drop
         //statement.executeQuery : Cuando queramos hacer select
-        //Utilizamos resulset porque nos devuelve un usuario
+        //Utilizamos resulset porque nos DEVUELVE algo (un boolean en este caso)
         boolean existe = false;
 
         String sql = "SELECT * FROM Usuario WHERE nick ='"+nick+"'"; //Comillas simples!!
@@ -30,24 +26,24 @@ public class BDOperaciones {
             st = con.createStatement(); //Creo el objeto sentencia
             ResultSet rs = st.executeQuery(sql); //Ejecutamos la consulta
             if(rs.next()) { //rs.next() -> Devuelve true si rs tiene datos, false en caso contrario
-                rs.getString("con");
+                rs.getString("Usuario"); //En que columna queremos que compruebe el nick
                 existe = true;
             }
-            cerrarBD(con, st);
+            BDConceptos.cerrarBD(con, st);
         } catch (SQLException e) {
             e.printStackTrace();
         }
         return existe;
     }
 
-    public static void insertarUsuario(String nick, String con) {
+    public static void insertarUsuario(String nick, String contraseña) {
 
         String s = "INSERT INTO Usuario VALUES('"+nick+"','"+con+"')";
         Connection c = initBD("academia.db");
         try {
             Statement st = c.createStatement();
             st.executeUpdate(s);
-            cerrarBD(c, st);
+            BDConceptos.cerrarBD(c, st);
         } catch (SQLException e) {
             e.printStackTrace();
         }
@@ -67,7 +63,7 @@ public class BDOperaciones {
             // TODO Auto-generated catch block
             e.printStackTrace();
         } finally {
-            cerrarBD(con, st);
+            BDConceptos.cerrarBD(con, st);
         }
     }
 
@@ -86,7 +82,7 @@ public class BDOperaciones {
             // TODO Auto-generated catch block
             e.printStackTrace();
         } finally {
-            cerrarBD(con, st);
+            BDConceptos.cerrarBD(con, st);
         }
     }
 
@@ -103,7 +99,7 @@ public class BDOperaciones {
             // TODO Auto-generated catch block
             e.printStackTrace();
         } finally {
-            cerrarBD(con, st);
+            BDConceptos.cerrarBD(con, st);
         }
     }
 

@@ -13,10 +13,9 @@ public class BDConceptos {
 2. CREAR UN OBJETO STATETMENT
 3. EJECUTAR SENTENCIA SQL
  */
-    Connection con = initBD("Prueba.db");
-    Statement st = usarCrearTablasBD(con);
-    cerrarBD(con, st);
-
+    Connection con = initBD("prueba.db");
+    Statement st = usarCrearTablasBD(con != null ? con : null);
+//    cerrarBD(con, st);
 
 
     // Inicializa una BD SQLITE nada mas ejecutar (es automatico)
