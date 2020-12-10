@@ -30,8 +30,11 @@ public class JTable {
         tabla.getTableHeader().setReorderingAllowed(false);
 
 
-
+        //Error porque se importan mal las clases
         tabla.setDefaultRenderer(String.class, new DefaultTableCellRenderer() { //String.class porque el cambio va suceder en los String y DefaultTableCellRenderer porque el cambio va a suceder en los cell
+           /*hacer new TableCellRenderer que nos implementa unos metodos, ya que es una interfaz, coger los métodos que
+            nos interesen y cambiar el nombre a DefaultTableCellRenderer
+           */
             public Component getTableCellRendererComponent(javax.swing.JTable table, Object value, boolean isSelected, boolean hasFocus, int row, int column) { //Devuelve la forma en la que se dibuja la celda
                 //La linea superior es un metodo llamado getTableCellRendererComponent
                 Color colorLetraAnterior = table.getForeground();

@@ -35,12 +35,13 @@ public class BDConceptos {
     public static Statement usarCrearTablasBD(Connection con ) {
         //statement.executeUpdate : Cuando queramos hacer create, insert, delete, update, drop
         //statement.executeQuery : Cuando queramos hacer select
-        //Drop vs delete --> Drop elimina tabla y contenido; Delete --> elimina contenido pero no la tabla
+        //Drop vs delete --> Drop elimina tabla y contenido; Delete --> elimina contenido pero no la tabla (tampoco las cabeceras)
+        //Si queremos que nos devuelva algo, utilizar un resulset
         try {
             Statement statement = con.createStatement(); //Nos conectamos con la BD
             statement.executeUpdate("create table Usuario "+
                     "(nick string, "+
-                    " con string)");
+                    " contraseña string)");
 
             return statement;
         } catch (SQLException e) {

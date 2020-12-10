@@ -22,14 +22,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a291377-ed8e-4e73-a96d-9b737ba73d12" name="Default Changelist" comment="JTable">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_junit_4_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Apuntes/src/Componentes/ScrollPane.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Apuntes/src/EventosSwing.java" afterDir="false" />
+    <list default="true" id="8a291377-ed8e-4e73-a96d-9b737ba73d12" name="Default Changelist" comment="EventosSwing&#10;ScrollPane&#10;JTable">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/src/Componentes/JMenuBar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apuntes/src/BD/BDConceptos.java" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/src/BD/BDConceptos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apuntes/src/BD/BDOperaciones.java" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/src/BD/BDOperaciones.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Apuntes/src/Componentes/JTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/src/Componentes/JTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/test/test.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +43,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1kIzw1JSwGo4SQuHUqDmCv21UZT" />
   <component name="ProjectLevelVcsManager">
@@ -439,7 +437,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607534393304</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="EventosSwing&#10;ScrollPane&#10;JTable">
+      <created>1607560783052</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1607560783053</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -483,7 +488,8 @@
     <MESSAGE value="Compareto, Recursividad, Colections" />
     <MESSAGE value="Correccio es JFileChooser" />
     <MESSAGE value="JTable" />
-    <option name="LAST_COMMIT_MESSAGE" value="JTable" />
+    <MESSAGE value="EventosSwing&#10;ScrollPane&#10;JTable" />
+    <option name="LAST_COMMIT_MESSAGE" value="EventosSwing&#10;ScrollPane&#10;JTable" />
   </component>
   <component name="WindowStateProjectService">
     <state x="451" y="282" key="#Notifications" timestamp="1607445738870">
@@ -578,10 +584,10 @@
     <state x="0" y="0" key="SettingsEditor/1440.25.2560.1055/0.0.1440.900@0.0.1440.900" timestamp="1605817730367" />
     <state x="1440" y="25" key="SettingsEditor/1440.25.2560.1055/0.0.1440.900@1440.25.2560.1055" timestamp="1605823204574" />
     <state x="0" y="25" key="SettingsEditor/1440.25.2560.1055/0.25.1440.875@0.25.1440.875" timestamp="1605810747880" />
-    <state x="320" y="183" key="Vcs.Push.Dialog.v2" timestamp="1607534379544">
+    <state x="320" y="183" key="Vcs.Push.Dialog.v2" timestamp="1607560820097">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="183" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1607284587042" />
+    <state x="320" y="183" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1607560820097" />
     <state x="320" y="203" key="Vcs.Push.Dialog.v2/0.25.1440.875@0.25.1440.875" timestamp="1605614110355" />
     <state x="320" y="183" key="Vcs.Push.Dialog.v2/1440.0.2560.1080/0.0.1440.900@0.0.1440.900" timestamp="1607534379544" />
     <state x="320" y="201" key="Vcs.Push.Dialog.v2/1440.23.2560.1057/0.23.1440.877@0.23.1440.877" timestamp="1605403161043" />
@@ -590,10 +596,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="433" y="357" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/1440.0.2560.1080/0.0.1440.900@0.0.1440.900" timestamp="1607540165195" />
-    <state x="518" y="368" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607448795203">
+    <state x="518" y="368" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607560808649">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="518" y="368" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1605443975214" />
+    <state x="518" y="368" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1607560808649" />
     <state x="518" y="383" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1440.875@0.25.1440.875" timestamp="1605614236771" />
     <state x="518" y="368" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1440.0.2560.1080/0.0.1440.900@0.0.1440.900" timestamp="1607448795203" />
     <state x="2361" y="442" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1440.0.2560.1080/0.0.1440.900@1440.0.2560.1080" timestamp="1607301867920" />

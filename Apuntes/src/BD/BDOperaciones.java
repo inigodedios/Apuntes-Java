@@ -10,9 +10,13 @@ import static BD.BDConceptos.initBD;
 
 public class BDOperaciones {
 
+    /*
+    * Nos devuelve  true si existe el usuario
+    * */
     public static boolean existeUsuario(String nick) {
         //statement.executeUpdate : Cuando queramos hacer create, insert, delete, update, drop
         //statement.executeQuery : Cuando queramos hacer select
+        //Utilizamos resulset porque nos devuelve un usuario
         boolean existe = false;
 
         String sql = "SELECT * FROM Usuario WHERE nick ='"+nick+"'"; //Comillas simples!!
