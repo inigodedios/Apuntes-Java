@@ -13,6 +13,16 @@ public class BDConceptos {
 3. EJECUTAR SENTENCIA SQL
 
  */
+    // Inicializa una BD SQLITE nada mas ejecutar (es automatico)
+    static String nombreBD = "prueba.db"; //EL NOMBRE SIEMRE DEBE INCLUIR .db (DataBase) si no crea un fichero de texto
+    static {
+        try {
+            Class.forName("org.sqlite.JDBC");
+            Connection con = DriverManager.getConnection("jdbc:sqlite:" + nombreBD ); //Establecer la conexion con la BD
+        } catch (ClassNotFoundException | SQLException e) {
+        }
+    }
+
 
     /** Inicializa una BD SQLITE y devuelve una conexión con ella
      * @param nombreBD	Nombre de fichero de la base de datos
