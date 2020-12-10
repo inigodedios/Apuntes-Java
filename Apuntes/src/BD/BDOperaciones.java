@@ -38,7 +38,7 @@ public class BDOperaciones {
 
     public static void insertarUsuario(String nick, String contraseña) {
 
-        String s = "INSERT INTO Usuario VALUES('"+nick+"','"+con+"')";
+        String s = "INSERT INTO Usuario VALUES('"+nick+"','"+contraseña+"')";
         Connection c = initBD("academia.db");
         try {
             Statement st = c.createStatement();
@@ -60,7 +60,6 @@ public class BDOperaciones {
             st = con.createStatement();
             st.executeUpdate(s);
         } catch (SQLException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         } finally {
             BDConceptos.cerrarBD(con, st);
@@ -79,7 +78,6 @@ public class BDOperaciones {
             st = con.createStatement();
             st.executeUpdate(s);
         } catch (SQLException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         } finally {
             BDConceptos.cerrarBD(con, st);
@@ -96,7 +94,6 @@ public class BDOperaciones {
             st = con.createStatement();
             st.executeUpdate(s);
         } catch (SQLException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         } finally {
             BDConceptos.cerrarBD(con, st);
@@ -124,7 +121,6 @@ public class BDOperaciones {
                 datos.add(fila);
             }
         } catch (SQLException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         }
         return datos;

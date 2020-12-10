@@ -6,7 +6,6 @@ import javax.swing.JMenuBar;
 import javax.swing.*;
 
 import java.awt.*;
-import java.awt.event.KeyEvent;
 
 public class JMenu1 extends JFrame {
     //Para crear menús --> 1º JMenuBar, 2º Jmenu, 3º JMenuItem
