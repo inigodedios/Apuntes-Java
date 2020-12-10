@@ -6,10 +6,13 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
 
-import static BD.BDConceptos.cerrarBD;
 import static BD.BDConceptos.initBD;
 
 public class BDOperaciones {
+
+    Connection con = initBD("Prueba.db");
+    Statement st = BDConceptos.usarCrearTablasBD(con);
+    cerrarBD(con, st);
 
     /*
      * Nos devuelve  true si existe el usuario

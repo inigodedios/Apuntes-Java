@@ -1,6 +1,7 @@
 package BD;
 
 import javax.swing.*;
+import javax.swing.plaf.nimbus.State;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
@@ -11,8 +12,13 @@ public class BDConceptos {
 1. ESTABLECER CONEXIÓN CON LA BD
 2. CREAR UN OBJETO STATETMENT
 3. EJECUTAR SENTENCIA SQL
-
  */
+    Connection con = initBD("Prueba.db");
+    Statement st = usarCrearTablasBD(con);
+    cerrarBD(con, st);
+
+
+
     // Inicializa una BD SQLITE nada mas ejecutar (es automatico)
     static String nombreBD = "prueba.db"; //EL NOMBRE SIEMRE DEBE INCLUIR .db (DataBase) si no crea un fichero de texto
     static {
