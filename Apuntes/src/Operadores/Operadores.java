@@ -9,7 +9,7 @@ public class Operadores {
         String s1 = "Prueba1";
         String s2 = "Prueba2";
         String s3 = (s1.equals(s2)) ? s1 : s2;
-        System.out.println("El mayor de los dos números es " + s3);
+        System.out.println(s3);
 
 
         //OPERADOR INSTANCEOF

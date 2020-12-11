@@ -1,11 +1,13 @@
 package Recursividad;
 
 import java.io.File;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Recursividad {
 
     //Ejemplo de cargar un archivo de forma recursiva
-    private void gestionarDirectorioRecursivo(java.util.List<File> lista, int i) {
+    private void gestionarDirectorioRecursivo(ArrayList<File> lista, int i) {
         if(i<lista.size()) {
             File f = lista.get(i);
             if(f.isDirectory())
