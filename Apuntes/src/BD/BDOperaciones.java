@@ -10,7 +10,7 @@ import static BD.BDConceptos.initBD;
 
 public class BDOperaciones {
 
-    /*
+    /**
      * Nos devuelve  true si existe el usuario
      * */
     public static boolean existeUsuario(String nick) {
