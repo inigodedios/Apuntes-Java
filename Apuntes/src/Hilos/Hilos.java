@@ -5,7 +5,6 @@ import java.awt.*;
 
 public class Hilos {
 
-	//    TODO
 	private static JTextArea textArea = new JTextArea("prueba");
 
 	public static void main(String[] args) {
@@ -38,7 +37,6 @@ public class Hilos {
 			try {
 				Thread.sleep(100); //Para durante 100 milisegundos
 			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 		}
@@ -54,7 +52,6 @@ public class Hilos {
 				try {
 					Thread.sleep(10);
 				} catch (InterruptedException e) {
-					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
 			}
@@ -63,7 +60,6 @@ public class Hilos {
 				try {
 					Thread.sleep(10);
 				} catch (InterruptedException e) {
-					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
 			}

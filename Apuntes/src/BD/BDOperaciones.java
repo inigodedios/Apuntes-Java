@@ -20,7 +20,7 @@ public class BDOperaciones {
         boolean existe = false;
 
         String sql = "SELECT * FROM Usuario WHERE nick ='"+nick+"'"; //Comillas simples!!
-        Connection con = initBD("academia.db");
+        Connection con = initBD("prueba.db");
         Statement st;
         try {
             st = con.createStatement(); //Creo el objeto sentencia

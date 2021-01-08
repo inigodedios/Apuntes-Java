@@ -1,6 +1,6 @@
 package Componentes;
 
-public class JList {
+public class JListA {
     public static void main(String[] args) {
        /* tenemos que declarar un objeto de tipo DefaultListModel y por medio del método addElement(elemento),
        vamos agregando elementos a nuestro modelo, posteriormente dicho modelo se agrega al JList con el que trabajemos...

@@ -6,7 +6,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.File;
 
-public class JFileChooser {
+public class JFileChooserA {
     public static void main(String[] args) {
         String txtRuta = "";
         JButton btnBuscarFoto = new JButton("BUSCAR FOTO");

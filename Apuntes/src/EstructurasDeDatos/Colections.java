@@ -80,7 +80,6 @@ public class Colections implements Comparator<Object>{
 		HashMap<String, Integer> hm = new HashMap<>();
 		//Mismos metodos (más o menos) para un TreeMap y un HashMap
 		hm.put("tres", new Integer(4));
-		hm.put("tres", new Integer(4)); //Se sobreescribe el valor 3 //TODO, BIEN?
 		hm.get("tres"); //Pasamos por parametro el Key y nos devuelve el value
 		hm.containsKey("tres"); //Más eficiente que el get
 		hm.remove("tres");

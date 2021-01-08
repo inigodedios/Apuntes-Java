@@ -4,16 +4,14 @@ import javax.swing.*;
 import java.awt.*;
 //SCROLLPANE NO ES LO MISMO QUE SCROLLBAR
 
-public class ScrollPane extends JFrame {
+public class ScrollPaneA extends JFrame {
     private JPanel contentPane;
     JLabel lNombre;
     JTextField tf;
     JScrollPane scrollPane;
 
-    /**
-     * Create the frame.
-     */
-    public ScrollPane() {
+
+    public ScrollPaneA() {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setBounds(100, 100, 450, 300);
         contentPane = new JPanel(new BorderLayout());
@@ -36,8 +34,8 @@ public class ScrollPane extends JFrame {
 
         JButton boton = new JButton("Aceptar");
 
-        scrollPane = new JScrollPane(); //NO se aprecia en la ventana! Creo que esta mal TODO
-        panelSur.add(scrollPane, BorderLayout.CENTER); //TODO
+        scrollPane = new JScrollPane();
+        panelSur.add(scrollPane, BorderLayout.CENTER);
 
         panelNorte.add(lNombre);
         panelNorte.add(tf);
@@ -45,7 +43,7 @@ public class ScrollPane extends JFrame {
     }
 
     public static void main(String[] args) {
-        ScrollPane v = new ScrollPane();
+        ScrollPaneA v = new ScrollPaneA();
         v.setVisible(true);
     }
 }

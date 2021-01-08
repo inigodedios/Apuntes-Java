@@ -6,8 +6,9 @@ import javax.swing.JMenuBar;
 import javax.swing.*;
 
 import java.awt.*;
+import java.awt.event.KeyEvent;
 
-public class JMenu1 extends JFrame {
+public class JMenuA extends JFrame {
     //Para crear menús --> 1º JMenuBar, 2º Jmenu, 3º JMenuItem
 
     private JPanel p;
@@ -15,7 +16,7 @@ public class JMenu1 extends JFrame {
     private JMenu menu1, menu2, menu3, menu4;
     private JMenuItem menuItem11, menuItem21, menuItem31, menuItem32;
 
-    public JMenu1 (){
+    public JMenuA (){
         p = new JPanel(new BorderLayout());
         setSize(600,500);
         setLocationRelativeTo(null);
@@ -23,10 +24,11 @@ public class JMenu1 extends JFrame {
 
         menuBar = new JMenuBar();
 
-        menu1 = new JMenu(); //TODO
-        menu2 = new JMenu(); //menu2.setMnemonic( KeyEvent.VK_V ); //TODO
-        menu3 = new JMenu(); //TODO
+        menu1 = new JMenu();
+        menu2 = new JMenu();
+        menu3 = new JMenu();
         menu4 = new JMenu();
+        menu2.setMnemonic( KeyEvent.VK_V );
 
         menuItem11 = new JMenuItem("Item11");
         menuItem21 = new JMenuItem("Item21");
@@ -49,8 +51,7 @@ public class JMenu1 extends JFrame {
 
     }
 
-    private void metodoLambda() {
-    }
+    private void metodoLambda() {}
 
     public static void main(String[] args) {
         JMenu v = new JMenu();
