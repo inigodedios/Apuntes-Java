@@ -29,6 +29,10 @@ public class JUnitTest {
      * @Ignore
      * Indica a JUnit que el método de test está deshabilitado. Útil cuando el código ha cambiado sustancialmente y el
      * test no está adaptado. Es de buena práctica indicar el motivo de por qué se ha deshabilitado.
+     *
+     *(expected = NullPointerException.class)
+     * Se pone al lado del @X para definir que es lo que esperamos exactamente
+     * @Test(expected = NullPointerException.class) MUY IMPORTANTE
      */
 
     /*
@@ -44,9 +48,14 @@ public class JUnitTest {
 
     //Prueba
     @Test
-    void test1() {
+    public void test1() {
         assertEquals('c', 'i');
     }
+
+   @Test
+   public void test2(){
+       assertEquals('c', 'c');
+   }
 
 
 }
