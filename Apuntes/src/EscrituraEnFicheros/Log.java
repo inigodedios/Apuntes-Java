@@ -9,7 +9,7 @@ import java.util.logging.Logger;
 
 
 public class Log {
-    private static Logger logger;
+    private static Logger log;
     /*
      * - Un logger es una forma de registrar lo que un programa va haciendo que nos servirán en un futuro para, por ejemplo,
      * estadísticas de uso, determinar como se están usando una cosa u  otra…
@@ -20,29 +20,29 @@ public class Log {
      */
 
     public static void main(String[] args) throws IOException {
-        logger = Logger.getLogger("Ejemplo"); //Lo que es esta entre parentesis es el nombre que le damos al logger para el "subsistema"
-        logger.log(Level.INFO, "Inicio de sesión" + (new Date())); //Se registra el mensaje + la fecha a nivel INFO
+        log = Logger.getLogger("Ejemplo"); //Lo que es esta entre parentesis es el nombre que le damos al logger para el "subsistema"
 
-        //El HANDLER es un gestor de ficheros de logger.
+        //El HANDLER es un gestor de ficheros de logger
+        //true para que no se sobreescriba, sino que se ENCADENE la información
         Handler fh = new FileHandler("fichero.xml", true); //Nombre que le damos al archivo. Puede ser un .txt, .csv...
-        // true para que no se sobreescriba, sino que se ENCADENE la información
-        logger.addHandler (fh);
 
-        logger.setLevel(Level.SEVERE);
+        log.addHandler (fh);
+
+        log.setLevel(Level.SEVERE);
         fh.setLevel(Level.SEVERE); //Tambien hay que establecer el nivel en el que va a tener que trabajar el FileHander
 
-
+        //Ejemplo de como registrar
+        log.log(Level.INFO, "Inicio de sesión" + (new Date())); //Se registra el mensaje + la fecha a nivel INFO
 
     }
 
     //LOG FUERA DE METODO!!
     static {
-        Logger logger = null;
+        Logger log = null;
         try {
-            logger.addHandler( new FileHandler(".log.xml", true ));
-            //Ponemos a true para que no se sobreescriba, se ENCADENE la informacion
+            log.addHandler( new FileHandler(".log.xml", true ));
         } catch (Exception e) {
-            logger.log( Level.SEVERE, "Error en creación fichero log" );
+            log.log( Level.SEVERE, "Error en creación fichero log" );
         }
     }
 

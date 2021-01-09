@@ -11,11 +11,10 @@ import java.util.Date;
 
 public class EjemploBDCompleto {
 
-
     public static ArrayList<ArrayList<Object>> datosUsuario;
     public static ArrayList<Object> tuplaUsuario;
 
-    public static Connection con;
+    public static Connection con; //TODO EJECUTAR DA NULL¿?¿?¿?
 
 
     public static void initBD(String nombreBD ) {
@@ -171,10 +170,35 @@ public class EjemploBDCompleto {
 
 
     public static void main(String[] args) {
+        Usuario u1 = new Usuario("inigo", "Iñigo", "de Dios", new Date(2020, 01, 01));
+        Usuario u2 = new Usuario("pedro", "Pedro", "Perez", new Date(2020, 01, 01));
+        Usuario u3 = new Usuario("lucia", "Lucia", "Perez", new Date(2020, 01, 01));
+        Usuario u4 = new Usuario("maria", "María", "Perez", new Date(2020, 01, 01));
+        Usuario u5 = new Usuario("antonio", "Antonio", "Perez", new Date(2020, 01, 01));
+
+
+        initBD("Libreria.db");
+        borrarTablaCompletamente("Usuario");
+        crearTablas(con);
+        borrarTablaCompletamente("paraEliminar");
+        insertarUsuario(u1.getNick(), u1.getNombre(), u1.getApellidos(), u1.getFechaNacimiento());
+        insertarUsuario(u2.getNick(), u2.getNombre(), u2.getApellidos(), u2.getFechaNacimiento());
+        insertarUsuario(u3.getNick(), u3.getNombre(), u3.getApellidos(), u3.getFechaNacimiento());
+        insertarUsuario(u4.getNick(), u4.getNombre(), u4.getApellidos(), u4.getFechaNacimiento());
+        insertarUsuario(u5.getNick(), u5.getNombre(), u5.getApellidos(), u5.getFechaNacimiento());
+        if (existeUsuario(u1.getNick())==true) {System.out.println("Existe el usuario inigo");}else {System.out.println("No existe el usuario inigo");}
+        eliminarUsuario("antonio");
+        System.out.println("Obetener datos del usuario Pedro");
+        datosUsuario(u2);
+        System.out.println("Obtener todos los datos de la base de datos:");
+        obtenerDatosBBDD();
+        borrarTablaContenido("Usuario");
+        cerrarBD("Libreria.db", con);
+
 
     }
 
-    public class Usuario{
+    public static class Usuario{
         String nick, nombre, apellidos;
         Date FechaNacimiento;
 
