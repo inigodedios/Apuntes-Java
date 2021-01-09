@@ -74,10 +74,8 @@ public class BDConceptos {
         try {
             Statement st = con.createStatement(); //Conectamos la base de datos mediante la conexion "con" al statement, con el cual vamos a hacer consultas
             try{
-                st.executeUpdate("create table prueba " + "(columna1 string, " + "columna2 string)"); //Opción1
-                //TODO Marian ¿Por qué no --> "create table prueba (columna1 string, columna2 string)"
-                //TODO Marian ¿Por qué en sql en java las fechas no las ponemos con ''? en parcial201611.examen.parc201611.BD linea 227
-                String consulta = "create table prueba " + "(columna1 string, " + "columna2 string)";
+                st.executeUpdate("create table prueba (columna1 string, columna2 string)"); //Opción1
+                String consulta = "create table prueba (columna1 string, columna2 string)";
                 st.executeUpdate(consulta); //Opción 2
             }catch (SQLException e){ } //Crea las tablas de la base de datos. Si ya existen, las deja tal cual
             return st;
