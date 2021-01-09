@@ -8,39 +8,51 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 public class BDConceptos {
-    /*
+    /**                                             IMPORTANTE
     1. ESTABLECER CONEXIÓN CON LA BD
-    2. CREAR UN OBJETO STATETMENT
+    2. CREAR UN OBJETO STATEMENT
     3. EJECUTAR SENTENCIA SQL
+    4. SI ES SELECT --> ADEMAS CREAR UN RESULSET, DONDE SE EJECUTA LA SENTENCIA
+
+    //TODO Preguntar Marian
+    Sólo se abre una vez la conexion (initBD(...))
+    Sólo se crea un Connection una vez
+    Por cada sentencia, un objeto nuevo statement
      */
-    Connection con = initBD("prueba.db");
-    Statement st = con.createStatement();
-    Statement st1 = usarBD(con != null ? con : null); //El método usarBD nos devuelve lo que esta en la linea anterior.
-//    cerrarBD(con, st);
 
+    static Connection con;
 
-    // Inicializa una BD SQLITE nada mas ejecutar (es automatico)
+    public static void main(String[] args) {
+        initBD("prueba.db");
+        //Operaciones con la base de datos
+        cerrarBD(con);
+    }
+
+    /**                                        INICIAR BASE DE DATOS
+     * Opción 1: Llamar al metodo initBD (...)
+     * Opción 2: Inicializa una BD SQLITE nada mas ejecutar (es automatico), como aparece a continuación
+     */
     static String nombreBD = "prueba.db"; //EL NOMBRE SIEMRE DEBE INCLUIR .db (DataBase) si no crea un fichero de texto
     static {
         try {
             Class.forName("org.sqlite.JDBC");
             Connection con = DriverManager.getConnection("jdbc:sqlite:" + nombreBD ); //Establecer la conexion con la BD
         } catch (ClassNotFoundException | SQLException e) {
+            e.printStackTrace();
         }
     }
 
 
-    /** Inicializa una BD SQLITE y devuelve una conexión con ella
+    /** Inicializa una BD SQLITE
      * @param nombreBD	Nombre de fichero de la base de datos
      * @return	Conexión con la base de datos indicada. Si hay algún error, se devuelve null
      */
-    public static Connection initBD(String nombreBD ) {
+    public static void initBD(String nombreBD ) {
         try {
             Class.forName("org.sqlite.JDBC");
-            Connection con = DriverManager.getConnection("jdbc:sqlite:" + nombreBD ); //Establecer la conexion con la BD
-            return con;
+            con = DriverManager.getConnection("jdbc:sqlite:" + nombreBD ); //Establecer la conexion con la BD
         } catch (ClassNotFoundException | SQLException e) {
-            return null;
+            e.printStackTrace();
         }
     }
 
@@ -49,16 +61,15 @@ public class BDConceptos {
      * @param con	Conexión ya creada y abierta a la base de datos
      * @return	sentencia de trabajo si se crea correctamente, null si hay cualquier error
      */
-    public static Statement usarBD(Connection con ) {
+    public static void usarBD(Connection con ) {
         try {
             Statement statement = con.createStatement(); //Nos conectamos con la BD
             statement.executeUpdate("create table Usuario "+
                     "(nick string, "+
                     " contraseña string)");
 
-            return statement;
         } catch (SQLException e) {
-            return null;
+            e.printStackTrace();
         }
     }
 
@@ -66,7 +77,7 @@ public class BDConceptos {
      * @param con	Conexión ya creada y abierta a la base de datos
      * @return	sentencia de trabajo si se crea correctamente, null si hay cualquier error
      */
-    public static Statement usarCrearTablasBD (Connection con) {
+    public static void usarCrearTablasBD (Connection con) {
         //statement.executeUpdate(""); --> Cuando queramos hacer create, insert, delete, update, drop
         //statement.executeQuery ("") --> Cuando queramos hacer select
         //Drop vs delete --> Drop elimina tabla y contenido; Delete --> elimina contenido pero no la tabla (tampoco las cabeceras)
@@ -77,11 +88,11 @@ public class BDConceptos {
                 st.executeUpdate("create table prueba (columna1 string, columna2 string)"); //Opción1
                 String consulta = "create table prueba (columna1 string, columna2 string)";
                 st.executeUpdate(consulta); //Opción 2
-            }catch (SQLException e){ } //Crea las tablas de la base de datos. Si ya existen, las deja tal cual
-            return st;
+            }catch (SQLException e){
+                e.printStackTrace();
+            }
         } catch (SQLException e) {
             e.printStackTrace();
-            return null;
         }
     }
 
@@ -91,30 +102,26 @@ public class BDConceptos {
      * @param con	Conexión ya creada y abierta a la base de datos
      * @return	sentencia de trabajo si se borra correctamente, null si hay cualquier error
      */
-    public static Statement reiniciarBD( Connection con ) {
+    public static void reiniciarBD( Connection con ) {
         try {
             Statement statement = con.createStatement();
             statement.executeUpdate("drop table if exists Usuario");
-            return usarCrearTablasBD( con );
         } catch (SQLException e) {
-            return null;
+            e.printStackTrace();
         }
     }
 
 
     /** Cierra la base de datos abierta
      * @param con	Conexión abierta de la BD
-     * @param st	Sentencia abierta de la BD
      */
-    public static void cerrarBD( Connection con, Statement st ) {
+    public static void cerrarBD( Connection con) {
         try {
-            if (st!=null) st.close();
             if (con!=null) con.close();
         } catch (SQLException e) {
             e.printStackTrace();
         }
     }
-
 
     public BDConceptos() throws SQLException { //Debido a la linea Statement st = con.createStatement();
     }

@@ -10,26 +10,24 @@ import static BD.BDConceptos.initBD;
 
 public class BDOperaciones {
 
-    /**
+     /**
      * Nos devuelve  true si existe el usuario
      * */
     public static boolean existeUsuario(String nick) {
         //statement.executeUpdate : Cuando queramos hacer create, insert, delete, update, drop
         //statement.executeQuery : Cuando queramos hacer select
         //Utilizamos resulset porque nos DEVUELVE algo (un boolean en este caso)
-        boolean existe = false;
 
+        boolean existe = false;
         String sql = "SELECT * FROM Usuario WHERE nick ='"+nick+"'"; //Comillas simples!!
-        Connection con = initBD("prueba.db");
         Statement st;
         try {
-            st = con.createStatement(); //Creo el objeto sentencia
+            st = BDConceptos.con.createStatement(); //Creo el objeto sentencia
             ResultSet rs = st.executeQuery(sql); //Ejecutamos la consulta
             if(rs.next()) { //rs.next() -> Devuelve true si rs tiene datos, false en caso contrario
                 rs.getString("Usuario"); //En que columna queremos que compruebe el nick
                 existe = true;
             }
-            BDConceptos.cerrarBD(con, st);
         } catch (SQLException e) {
             e.printStackTrace();
         }
@@ -39,11 +37,9 @@ public class BDOperaciones {
     public static void insertarUsuario(String nick, String contraseña) {
 
         String s = "INSERT INTO Usuario VALUES('"+nick+"','"+contraseña+"')";
-        Connection c = initBD("academia.db");
         try {
-            Statement st = c.createStatement();
+            Statement st = BDConceptos.con.createStatement();
             st.executeUpdate(s);
-            BDConceptos.cerrarBD(c, st);
         } catch (SQLException e) {
             e.printStackTrace();
         }
@@ -53,16 +49,13 @@ public class BDOperaciones {
     //Borra la tabla, es decir, tanto su contenido como la tabla en si
     public static void borrarTabla(String nombreBD, String nombreTabla) {
         String s = "drop table if exists "+nombreTabla;
-        Connection con = initBD(nombreBD);
         Statement st = null;
 
         try {
-            st = con.createStatement();
+            st = BDConceptos.con.createStatement();
             st.executeUpdate(s);
         } catch (SQLException e) {
             e.printStackTrace();
-        } finally {
-            BDConceptos.cerrarBD(con, st);
         }
     }
 
@@ -71,43 +64,36 @@ public class BDOperaciones {
     public static void crearNuevaTabla(String nombreBD, String nomTabla) {
         borrarTabla(nombreBD, nomTabla);
         String s = "create table if not exists " + nomTabla + " (nombre string, email string, duracion string, horaInicio string, horaFin string)";
-        Connection con = initBD(nombreBD);
         Statement st = null;
 
         try {
-            st = con.createStatement();
+            st = BDConceptos.con.createStatement();
             st.executeUpdate(s);
         } catch (SQLException e) {
             e.printStackTrace();
-        } finally {
-            BDConceptos.cerrarBD(con, st);
         }
     }
 
     //Inserta nueva tupla/fila
     public static void insertarNuevaFila(String nombreBD, String nomTabla, String nombre, String email, String duracion, String horaInicio, String horaFin) {
         String s = "insert into "+nomTabla+" values('"+nombre+"','"+email+"','"+duracion+"','"+horaInicio+"','"+horaFin+"')";
-        Connection con = initBD(nombreBD);
         Statement st = null;
 
         try {
-            st = con.createStatement();
+            st = BDConceptos.con.createStatement();
             st.executeUpdate(s);
         } catch (SQLException e) {
             e.printStackTrace();
-        } finally {
-            BDConceptos.cerrarBD(con, st);
         }
     }
 
     //Obtiene todas las filas
     public static ArrayList<ArrayList<String>> obtenerTodasLasFilas(String nombreBD, String nomTabla){
         ArrayList<ArrayList<String>> datos = new ArrayList<ArrayList<String>>();
-        Connection con = initBD(nombreBD);//initBD devuelve una connection
         Statement st = null;
         String s = "SELECT * FROM "+nomTabla;
         try {
-            st = con.createStatement();
+            st = BDConceptos.con.createStatement();
             ResultSet rs = st.executeQuery(s);
             while(rs.next()) {
                 ArrayList<String> fila = new ArrayList<>();
