@@ -10,7 +10,21 @@ import static BD.BDConceptos.initBD;
 
 public class BDOperaciones {
 
-     /**
+    /**
+     * DOS FORMAS DE HACER SELECT
+     *
+     * FORMA 1
+     * Statement st = con.createStatement();
+     * ResultSet rs = st.executeQuery("Select * from Usuario where nick = '" + usuario.getNombre() + "'");
+     *
+     * FORMA 2
+     * PreparedStatement pst = con.prepareStatement("Select * from Usuario where nick = ?");
+     * pst.setString(1, usuario.getNick()); //la primera (1) variable con ?, toma el valor de usuario.getNick()
+     */
+
+
+
+    /**
      * Nos devuelve  true si existe el usuario
      * */
     public static boolean existeUsuario(String nick) {
@@ -19,11 +33,10 @@ public class BDOperaciones {
         //Utilizamos resulset porque nos DEVUELVE algo (un boolean en este caso)
 
         boolean existe = false;
-        String sql = "SELECT * FROM Usuario WHERE nick ='"+nick+"'"; //Comillas simples!!
         Statement st;
         try {
             st = BDConceptos.con.createStatement(); //Creo el objeto sentencia
-            ResultSet rs = st.executeQuery(sql); //Ejecutamos la consulta
+            ResultSet rs = st.executeQuery("SELECT * FROM Usuario WHERE nick ='"+nick+"'"); //Ejecutamos la consulta -- Comillas Simples
             if(rs.next()) { //rs.next() -> Devuelve true si rs tiene datos, false en caso contrario
                 rs.getString("Usuario"); //En que columna queremos que compruebe el nick
                 existe = true;

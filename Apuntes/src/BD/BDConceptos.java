@@ -64,10 +64,7 @@ public class BDConceptos {
     public static void usarBD(Connection con ) {
         try {
             Statement statement = con.createStatement(); //Nos conectamos con la BD
-            statement.executeUpdate("create table Usuario "+
-                    "(nick string, "+
-                    " contraseña string)");
-
+            statement.executeUpdate("create table Usuario (nick string, contraseña string)");
         } catch (SQLException e) {
             e.printStackTrace();
         }
@@ -86,8 +83,6 @@ public class BDConceptos {
             Statement st = con.createStatement(); //Conectamos la base de datos mediante la conexion "con" al statement, con el cual vamos a hacer consultas
             try{
                 st.executeUpdate("create table prueba (columna1 string, columna2 string)"); //Opción1
-                String consulta = "create table prueba (columna1 string, columna2 string)";
-                st.executeUpdate(consulta); //Opción 2
             }catch (SQLException e){
                 e.printStackTrace();
             }
