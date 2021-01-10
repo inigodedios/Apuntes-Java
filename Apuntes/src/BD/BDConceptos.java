@@ -17,7 +17,8 @@ public class BDConceptos {
     //TODO Preguntar Marian
     Sólo se abre una vez la conexion (initBD(...))
     Sólo se crea un Connection una vez
-    Por cada sentencia, un objeto nuevo statement
+    Por cada sentencia, un objeto nuevo statement (y resulset si es necesario)
+    Se debe cerrar la la sentencia y el resulset cada vez que acabemos de usarlos.
      */
 
     static Connection con;
@@ -65,6 +66,7 @@ public class BDConceptos {
         try {
             Statement statement = con.createStatement(); //Nos conectamos con la BD
             statement.executeUpdate("create table Usuario (nick string, contraseña string)");
+            statement.close();
         } catch (SQLException e) {
             e.printStackTrace();
         }
@@ -83,6 +85,7 @@ public class BDConceptos {
             Statement st = con.createStatement(); //Conectamos la base de datos mediante la conexion "con" al statement, con el cual vamos a hacer consultas
             try{
                 st.executeUpdate("create table prueba (columna1 string, columna2 string)"); //Opción1
+                st.close();
             }catch (SQLException e){
                 e.printStackTrace();
             }
@@ -101,6 +104,7 @@ public class BDConceptos {
         try {
             Statement statement = con.createStatement();
             statement.executeUpdate("drop table if exists Usuario");
+            statement.close();
         } catch (SQLException e) {
             e.printStackTrace();
         }

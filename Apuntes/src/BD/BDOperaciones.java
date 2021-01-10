@@ -41,6 +41,8 @@ public class BDOperaciones {
                 rs.getString("Usuario"); //En que columna queremos que compruebe el nick
                 existe = true;
             }
+            st.close();
+            rs.close();
         } catch (SQLException e) {
             e.printStackTrace();
         }
@@ -53,6 +55,7 @@ public class BDOperaciones {
         try {
             Statement st = BDConceptos.con.createStatement();
             st.executeUpdate(s);
+            st.close();
         } catch (SQLException e) {
             e.printStackTrace();
         }
@@ -67,6 +70,7 @@ public class BDOperaciones {
         try {
             st = BDConceptos.con.createStatement();
             st.executeUpdate(s);
+            st.close();
         } catch (SQLException e) {
             e.printStackTrace();
         }
@@ -82,6 +86,7 @@ public class BDOperaciones {
         try {
             st = BDConceptos.con.createStatement();
             st.executeUpdate(s);
+            st.close();
         } catch (SQLException e) {
             e.printStackTrace();
         }
@@ -95,6 +100,7 @@ public class BDOperaciones {
         try {
             st = BDConceptos.con.createStatement();
             st.executeUpdate(s);
+            st.close();
         } catch (SQLException e) {
             e.printStackTrace();
         }
@@ -119,6 +125,8 @@ public class BDOperaciones {
                     fila.add(rs.getString(i));
                 datos.add(fila);
             }
+            st.close();
+            rs.close();
         } catch (SQLException e) {
             e.printStackTrace();
         }

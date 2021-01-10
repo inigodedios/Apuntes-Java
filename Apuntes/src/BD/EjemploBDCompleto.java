@@ -11,6 +11,7 @@ import java.util.Date;
 
 public class EjemploBDCompleto {
 
+
     public static ArrayList<ArrayList<Object>> datosUsuario;
     public static ArrayList<Object> tuplaUsuario;
 
