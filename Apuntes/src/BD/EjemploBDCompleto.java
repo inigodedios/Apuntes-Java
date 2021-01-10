@@ -11,18 +11,18 @@ import java.util.Date;
 
 public class EjemploBDCompleto {
 
-
     public static ArrayList<ArrayList<Object>> datosUsuario;
     public static ArrayList<Object> tuplaUsuario;
 
-    public static Connection con; //TODO EJECUTAR DA NULL¿?¿?¿?
-
+    public static Connection con;
 
     public static void initBD(String nombreBD ) {
         try {
             Class.forName("org.sqlite.JDBC");
-            con = DriverManager.getConnection("jdbc:sqlite:" + nombreBD ); //Establecer la conexion con la BD
+            con = DriverManager.getConnection("jdbc:sqlite:" + nombreBD );
+            //			log.log(Level.INFO, "Éxito al iniciar la BD");
         } catch (ClassNotFoundException | SQLException e) {
+            //			log.log(Level.SEVERE, "Error al iniciar la BD");
         }
     }
 
@@ -32,6 +32,8 @@ public class EjemploBDCompleto {
             Statement st2 = con.createStatement();
             st.executeUpdate("CREATE TABLE if not exists Usuario (Nick string not null, Nombre string not null, Apellidos string not null, FechaNacimiento Date)");
             st2.executeUpdate("CREATE TABLE if not exists paraEliminar (column1 String)");
+            st.close();
+            st2.close();
         } catch (SQLException e) {
             e.printStackTrace();
         }
@@ -45,6 +47,7 @@ public class EjemploBDCompleto {
         try {
             Statement st = con.createStatement();
             st.executeUpdate("DROP TABLE if exists " + nombreTabla);
+            st.close();
         } catch (SQLException e) {
             e.printStackTrace();
         }
@@ -59,6 +62,7 @@ public class EjemploBDCompleto {
             st = con.createStatement();
             st.executeUpdate("Delete FROM "+ nombreTabla);
             System.out.println("Tabla " + nombreTabla + " eliminada");
+            st.close();
         } catch (SQLException e) {
             e.printStackTrace();
         }
@@ -69,6 +73,7 @@ public class EjemploBDCompleto {
         try {
             Statement st = con.createStatement();
             st.executeUpdate("INSERT INTO USUARIO VALUES ('"+  nick + "','" + nombre+ "','"+apellidos +"','" +FechaNacimiento +"')");
+            st.close();
         } catch (SQLException e) {
             e.printStackTrace();
         }
@@ -86,10 +91,12 @@ public class EjemploBDCompleto {
                     existe = true;
                     System.out.println("Ha entrado");
                 }else {
-                    System.out.println("NO Ha entrado");
+                    System.out.println("NO ha entrado");
                     existe = false;
                 }
             }
+            st.close();
+            rs.close();
         } catch (SQLException e) {
             e.printStackTrace();
             existe = false;
@@ -113,6 +120,8 @@ public class EjemploBDCompleto {
                 usuario.add(rs.getString(3));
                 usuario.add(rs.getString("FechaNacimiento"));
             }
+            st.close();
+            rs.close();
             System.out.println(usuario.toString());
 
         } catch (SQLException e) {
@@ -127,6 +136,7 @@ public class EjemploBDCompleto {
         try {
             Statement st = con.createStatement();
             st.executeUpdate("DELETE FROM USUARIO where nick = '" + nick +"';");
+            st.close();
         } catch (SQLException e) {
             e.printStackTrace();
         }
@@ -150,7 +160,10 @@ public class EjemploBDCompleto {
                 System.out.println(datosUsuario.toString());
 
             }
+            st.close();
+            rs.close();
         } catch (SQLException e) {
+            // TODO Auto-generated catch block
             e.printStackTrace();
         }
         return datosUsuario;
@@ -158,6 +171,20 @@ public class EjemploBDCompleto {
 
 
     //Editar datos
+
+    public static void editarUsuarioBBDD (String nick, String nombre, String apellidos, Date FechaNacimiento) {
+        try {
+            PreparedStatement pst = con.prepareStatement("Delete from Usuario where nick = ?");
+            pst.setString(1, nick);
+            Statement st2 = con.createStatement();
+            st2.executeUpdate("Insert into Usuario values ('"+ nick +"','" + nombre + "','" + apellidos +"','" + FechaNacimiento + "')");
+            pst.close();
+            st2.close();
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
 
     public static void cerrarBD(String nombreBBDD, Connection con) { //Aqui tendria que cerrrar el statement?
         if (con!=null)
@@ -170,6 +197,9 @@ public class EjemploBDCompleto {
     }
 
 
+
+
+
     public static void main(String[] args) {
         Usuario u1 = new Usuario("inigo", "Iñigo", "de Dios", new Date(2020, 01, 01));
         Usuario u2 = new Usuario("pedro", "Pedro", "Perez", new Date(2020, 01, 01));
@@ -179,6 +209,7 @@ public class EjemploBDCompleto {
 
 
         initBD("Libreria.db");
+        borrarTablaContenido("Usuario");
         borrarTablaCompletamente("Usuario");
         crearTablas(con);
         borrarTablaCompletamente("paraEliminar");
@@ -193,8 +224,9 @@ public class EjemploBDCompleto {
         datosUsuario(u2);
         System.out.println("Obtener todos los datos de la base de datos:");
         obtenerDatosBBDD();
-        borrarTablaContenido("Usuario");
+        editarUsuarioBBDD("lucia", "Lucia", "EDITADO", new Date(2000,01,01));
         cerrarBD("Libreria.db", con);
+
 
 
     }
