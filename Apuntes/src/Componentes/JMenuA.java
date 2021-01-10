@@ -18,16 +18,16 @@ public class JMenuA extends JFrame {
 
     public JMenuA (){
         p = new JPanel(new BorderLayout());
-        setSize(600,500);
-        setLocationRelativeTo(null);
-        setDefaultCloseOperation(EXIT_ON_CLOSE);
+        this.setSize(310, 210);
+        this.setLocationRelativeTo(null);
+        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         menuBar = new JMenuBar();
 
-        menu1 = new JMenu();
-        menu2 = new JMenu();
-        menu3 = new JMenu();
-        menu4 = new JMenu();
+        menu1 = new JMenu("Menú1");
+        menu2 = new JMenu("Menú2");
+        menu3 = new JMenu("Menú3");
+        menu4 = new JMenu("Menú4");
         menu2.setMnemonic( KeyEvent.VK_V );
 
         menuItem11 = new JMenuItem("Item11");
@@ -54,7 +54,7 @@ public class JMenuA extends JFrame {
     private void metodoLambda() {}
 
     public static void main(String[] args) {
-        JMenu v = new JMenu();
+        JMenuA v = new JMenuA();
         v.setVisible(true);
     }
 
