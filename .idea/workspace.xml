@@ -24,16 +24,8 @@
   <component name="ChangeListManager">
     <list default="true" id="8a291377-ed8e-4e73-a96d-9b737ba73d12" name="Default Changelist" comment="BBDD, JMenu, JTable, ScrollPane">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/production/Apuntes/BD/BDConceptos.class" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/production/Apuntes/BD/BDConceptos.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/production/Apuntes/BD/BDOperaciones.class" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/production/Apuntes/BD/BDOperaciones.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/production/Apuntes/Componentes/JFileChooser$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/production/Apuntes/Componentes/JFileChooser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/production/Apuntes/Componentes/JList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/production/Apuntes/EscrituraEnFicheros/Log.class" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/production/Apuntes/EscrituraEnFicheros/Log.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/production/Apuntes/Utils/Dates.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/src/Componentes/JMenuA.java" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/src/Componentes/JMenuA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/src/Componentes/JTableA.java" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/src/Componentes/JTableYJScrollPaneA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/src/Componentes/ScrollPaneA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apuntes/src/Componentes/JListA.java" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/src/Componentes/JListA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apuntes/src/Componentes/JTableYJScrollPaneA.java" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/src/Componentes/JTableYJScrollPaneA.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

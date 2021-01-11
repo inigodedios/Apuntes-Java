@@ -47,7 +47,7 @@ public class JTableYJScrollPaneA extends JFrame{
 
         modeloTabla = new DefaultTableModel();
         tTabla = new JTable(modeloTabla);
-        pScrollPane = new JScrollPane(tTabla);
+        pScrollPane = new JScrollPane(tTabla); //pScrollPane.setViewportView(tTabla)
         pScrollPane.setVerticalScrollBarPolicy(ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
         pScrollPane.setHorizontalScrollBarPolicy(ScrollPaneConstants.HORIZONTAL_SCROLLBAR_AS_NEEDED);
 
@@ -57,15 +57,12 @@ public class JTableYJScrollPaneA extends JFrame{
         String fila3 [] = {"21", "32", "33", "34", "35"};
 
         modeloTabla.setColumnIdentifiers(nombreColumnas);
-        modeloTabla.addRow(fila1);modeloTabla.addRow(fila1);modeloTabla.addRow(fila1);modeloTabla.addRow(fila1);
-        modeloTabla.addRow(fila2);modeloTabla.addRow(fila2);modeloTabla.addRow(fila2);modeloTabla.addRow(fila2);
-        modeloTabla.addRow(fila3);modeloTabla.addRow(fila2);modeloTabla.addRow(fila2);modeloTabla.addRow(fila2);
-        modeloTabla.addRow(fila3);modeloTabla.addRow(fila2);modeloTabla.addRow(fila2);modeloTabla.addRow(fila2);
-        modeloTabla.addRow(fila3);modeloTabla.addRow(fila2);modeloTabla.addRow(fila2);modeloTabla.addRow(fila2);
-        modeloTabla.addRow(fila3);modeloTabla.addRow(fila2);modeloTabla.addRow(fila2);modeloTabla.addRow(fila2);
-        modeloTabla.addRow(fila3);modeloTabla.addRow(fila2);modeloTabla.addRow(fila2);modeloTabla.addRow(fila2);
-        modeloTabla.addRow(fila3);modeloTabla.addRow(fila2);modeloTabla.addRow(fila2);modeloTabla.addRow(fila2);
+        for (int i = 0; i<40; i++){
+            String fila [] = {i+"", i+"", i+"", i+"", i+""};
+            modeloTabla.addRow(fila);
+        }
 
+        //NO hay que añadir al panel pScrollPane la tTbala(pScrollPane.add(tTbala)). Ya se hace en el paso 3!!
         pPrincipal.add(pScrollPane, BorderLayout.CENTER);
         add(pPrincipal);
 
