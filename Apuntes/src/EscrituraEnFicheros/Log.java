@@ -9,6 +9,7 @@ import java.util.logging.Logger;
 
 
 public class Log {
+    private static Logger l;
     private static Logger log;
     /*
      * - Un logger es una forma de registrar lo que un programa va haciendo que nos servirán en un futuro para, por ejemplo,
@@ -36,7 +37,25 @@ public class Log {
 
     }
 
-    //LOG FUERA DE METODO!!
+    //LOG MÉTODO
+    //Acuerdate de llamarlo en el main
+    public static Logger creacionDeLogger() {
+        l = null;
+        try {
+            Handler h = new FileHandler("fichero.xml", true);
+            l = Logger.getLogger( "loggerOutput" );
+            l.addHandler( h );
+            l.setLevel( Level.INFO );
+            h.setLevel( Level.INFO);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return l;
+    }
+
+
+
+    //LOG FUERA AL INICAR LA CLASE!!
     static {
         Logger log = null;
         try {

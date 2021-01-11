@@ -5,9 +5,12 @@ import javax.swing.*;
 import javax.swing.table.DefaultTableCellRenderer;
 import javax.swing.table.DefaultTableModel;
 import java.awt.*;
+import java.awt.event.KeyAdapter;
+import java.awt.event.KeyEvent;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
+import java.awt.event.MouseWheelEvent;
 
 public class JTableYJScrollPaneA extends JFrame{
     /**
@@ -33,7 +36,7 @@ public class JTableYJScrollPaneA extends JFrame{
      * 2. Crear JTable -- Pasar por parametro el DefaultTableModel
      * 3. Crear JScrollPane -- Pasar por parametro la JTabla
      * 4. Establecer en el panel el ScrollBar (para que aparezca)
-     * 5. Crear Array de String con los nombres de las columnas y arrays del contenido de la tabla.
+     * 5. Crear Array de String con los nombres de las columnas,  y arrays del contenido de la tabla.
      * 6. Asignarle al modelo el nombre de las columnas y  añadir filas (tambien al modelo)
      *
      */
@@ -50,12 +53,15 @@ public class JTableYJScrollPaneA extends JFrame{
         pScrollPane = new JScrollPane(tTabla); //pScrollPane.setViewportView(tTabla)
         pScrollPane.setVerticalScrollBarPolicy(ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
         pScrollPane.setHorizontalScrollBarPolicy(ScrollPaneConstants.HORIZONTAL_SCROLLBAR_AS_NEEDED);
+        tTabla.getSelectionModel().setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
+
 
         String nombreColumnas [] = {"Columna 1", "Columna 2", "Columna 3", "Columna 4", "Columna 5"};
         String fila1 [] = {"11", "12", "13", "14", "15"};
         String fila2 [] = {"21", "22", "23", "24", "25"};
         String fila3 [] = {"21", "32", "33", "34", "35"};
 
+        //1º establecer columnas y despues filas. Si no, las filas salen vacias!
         modeloTabla.setColumnIdentifiers(nombreColumnas);
         for (int i = 0; i<40; i++){
             String fila [] = {i+"", i+"", i+"", i+"", i+""};
@@ -72,34 +78,27 @@ public class JTableYJScrollPaneA extends JFrame{
              * hacer new TableCellRenderer que nos implementa unos metodos, ya que es una interfaz. Coger los métodos que
              * nos interesen y cambiar el nombre a DefaultTableCellRenderer
              */
-            @Override
+            @Override //TODO
             public Component getTableCellRendererComponent(JTable table, Object value, boolean isSelected, boolean hasFocus, int row, int column) {
-                Color colorLetraAnterior = table.getForeground();
-                Font fuenteAnterior = table.getFont();
-                Color anterior = table.getBackground();
+
                 Component c = super.getTableCellRendererComponent(table, value, isSelected, hasFocus, row, column); //Forma en la que esta dibujada la celda antes de hacer un cambio
+
                 if(modeloTabla.getValueAt(4,5) != null) {
                     c.setBackground(Color.GREEN);
                 }else{
-                    c.setBackground(anterior);
+                    c.setBackground(Color.yellow);
                 }
 
                 if(row==0 && column==0) {
                     c.setForeground(Color.MAGENTA);
                 }else {
-                    c.setForeground(colorLetraAnterior);
+                    c.setForeground(Color.yellow);
                 }
 
                 if(row==0) {
                     c.setBackground(Color.GREEN);
                 }else {
-                    c.setBackground(anterior);
-                }
-
-                if(column==0) {
-                    c.setFont(new Font(Font.SERIF, Font.BOLD, 16));
-                }else {
-                    c.setFont(fuenteAnterior);
+                    c.setBackground(Color.yellow);
                 }
                 return c;
             }
@@ -115,7 +114,31 @@ public class JTableYJScrollPaneA extends JFrame{
                     System.out.println(modeloTabla.getValueAt(fila,columna));
             }
         });
+
+
+        tTabla.addKeyListener(new KeyAdapter() {
+            @Override
+            public void keyPressed(KeyEvent e) {
+                super.keyTyped(e);
+                if(e.getKeyCode()== KeyEvent.VK_F1)
+                    System.out.println("Has pulsado F1 keyListener");
+            }
+        });
+
+        tTabla.addMouseListener( new MouseAdapter() {
+            @Override
+            public void mouseClicked(MouseEvent e) {
+                if (e.getClickCount()>=2) {
+
+                    int fila = tTabla.rowAtPoint( e.getPoint() );
+                    int columna = tTabla.columnAtPoint( e.getPoint() );
+
+                }
+            }
+        });
     }
+
+
 
     public static void main(String[] args) {
         JTableYJScrollPaneA v = new JTableYJScrollPaneA();
