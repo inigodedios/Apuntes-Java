@@ -68,7 +68,7 @@ public class JTableYJScrollPaneA extends JFrame{
             modeloTabla.addRow(fila);
         }
 
-        //NO hay que añadir al panel pScrollPane la tTbala(pScrollPane.add(tTbala)). Ya se hace en el paso 3!!
+        //IMPORTANTE --> NO hay que añadir al panel pScrollPane la tTbala(pScrollPane.add(tTbala)). Ya se hace en el paso 3!!
         pPrincipal.add(pScrollPane, BorderLayout.CENTER);
         add(pPrincipal);
 
@@ -81,26 +81,43 @@ public class JTableYJScrollPaneA extends JFrame{
             @Override //TODO
             public Component getTableCellRendererComponent(JTable table, Object value, boolean isSelected, boolean hasFocus, int row, int column) {
 
-                Component c = super.getTableCellRendererComponent(table, value, isSelected, hasFocus, row, column); //Forma en la que esta dibujada la celda antes de hacer un cambio
+//                Component c = super.getTableCellRendererComponent(table, value, isSelected, hasFocus, row, column); //Forma en la que esta dibujada la celda antes de hacer un cambio
 
-                if(modeloTabla.getValueAt(4,5) != null) {
-                    c.setBackground(Color.GREEN);
-                }else{
-                    c.setBackground(Color.yellow);
-                }
+                //Debemos operar con table, value, isSelected, hasFocus, row y column para que se apliquen los cambios en la tabla
 
-                if(row==0 && column==0) {
-                    c.setForeground(Color.MAGENTA);
-                }else {
-                    c.setForeground(Color.yellow);
-                }
+//                String s = (String) value;
+//                if(s.compareTo("1")==0){
+//                    System.out.println("Entr");
+//                }else{
+//                    ;
+//                }
+                JLabel lVacia = new JLabel( "" );
 
-                if(row==0) {
-                    c.setBackground(Color.GREEN);
-                }else {
-                    c.setBackground(Color.yellow);
-                }
-                return c;
+//                if(column == 4 && row == 5 ) {
+                    JLabel c = (JLabel) table.getComponentAt(4, 5);
+                    System.out.println("Entrado");
+                    c.setBackground(Color.green);
+                    return c;
+//                }else{
+//
+//                    setBackground(Color.yellow);
+//                }
+
+//                if(row==0 && column==0) {
+//
+//                    setForeground(Color.MAGENTA);
+//                }else {
+//
+//                    setForeground(Color.yellow);
+//                }
+//
+//                if(row==0) {
+//                    setBackground(Color.GREEN);
+//                }else {
+//
+//                    setBackground(Color.yellow);
+//                }
+//                return null;
             }
         });
 
@@ -137,6 +154,7 @@ public class JTableYJScrollPaneA extends JFrame{
             }
         });
     }
+
 
 
 

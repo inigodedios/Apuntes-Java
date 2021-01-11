@@ -113,8 +113,8 @@ public class EjemploBDCompleto {
             ResultSet rs = st.executeQuery("Select * from Usuario where nick = '" + u.getNick() + "'"); //Opción 1
             PreparedStatement pst = con.prepareStatement("Select * from Usuario where nick = ?");//Opción2 --  Se deja la sentencia hecha, en el cual el ? es una variable
             pst.setString(1, u.getNick());//Opción2 -- La primera (1) variable con ?, toma el valor de u.getNick()
-
-            while (rs.next()) {
+            ResultSet rs1 = pst.executeQuery();
+            while (rs1.next()) {
                 usuario.add(rs.getString(1));
                 usuario.add(rs.getString("nombre"));
                 usuario.add(rs.getString(3));
@@ -163,7 +163,6 @@ public class EjemploBDCompleto {
             st.close();
             rs.close();
         } catch (SQLException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         }
         return datosUsuario;

@@ -63,7 +63,7 @@ public class Colections implements Comparator<Object>{
 
 
 		//TREEMAP Y HASHMAP
-		//Lista de elementos identificados por una clave (map: TreeMap, HashMap). DEBEMOS OVERRIDE EQUALS, HASHCODE Y COMPARETO
+		//Lista de elementos identificados por una clave (map: TreeMap, HashMap). DEBEMOS HACER OVERRIDE EQUALS, HASHCODE Y COMPARETO
 		/*TreeMap -->
 		- Ordenados por clave
 		- Si permite valores iguales, pero no claves
@@ -71,7 +71,6 @@ public class Colections implements Comparator<Object>{
 		 */
 
 		/*HashMap -->
-		- Ordenados por clave
 		- Si permite valores iguales, pero no claves
 		- No se ordena por defecto
 		 */
