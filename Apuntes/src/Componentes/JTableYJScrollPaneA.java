@@ -26,8 +26,15 @@ public class JTableYJScrollPaneA extends JFrame{
 
     /**
      * IMPORTANTE
-     * Aunque los datos se menipulen desde el modelo, podemos obtener datos de la tabla (getValue(x,y)) tanto con la tabla como con el modelo
-     * tTabla.getValue(4,5) || modeloTabla.getValue(4,5)
+     * - Aunque los datos se menipulen desde el modelo, podemos obtener datos de la tabla (getValue(x,y)) tanto con la tabla como con el modelo
+     *   tTabla.getValue(4,5) || modeloTabla.getValue(4,5)
+     *
+     * - Si metemos nuevos datos o queremos cambiar los datos por otros, al añadir, lo hace al final! Por lo que
+     *   debemos borrar el contenido --> modeloTabla.setNumRows(0);
+     *
+     * - Si por cualquier cosa, no se refresca la tabla al añadir, eliminar, actulizar... datos o tenemos problemas
+     *   con la visualización de la tabla, ademas de los típicos metodos revalidate(), repaint(), updateUI(), también
+     *   podemos hacer --> tabla.setModel(modeloTabla) ya hace que refresca la IU (confirmar si es cierto, aunque en un principio si)
      */
 
     /**
@@ -66,6 +73,12 @@ public class JTableYJScrollPaneA extends JFrame{
             String fila [] = {i+"", i+"", i+"", i+"", i+""};
             modeloTabla.addRow(fila);
         }
+
+
+        /**
+         *
+         */
+
 
         //IMPORTANTE --> NO hay que añadir al panel pScrollPane la tTbala(pScrollPane.add(tTbala)). Ya se hace en el paso 3!!
         pPrincipal.add(pScrollPane, BorderLayout.CENTER);
@@ -115,7 +128,7 @@ public class JTableYJScrollPaneA extends JFrame{
             }
         });
 
-
+        //Al pulsar una tecla sucede...
         tTabla.addKeyListener(new KeyAdapter() {
             @Override
             public void keyPressed(KeyEvent e) {
@@ -125,6 +138,7 @@ public class JTableYJScrollPaneA extends JFrame{
             }
         });
 
+        //Al hacer doble click, sucede...
         tTabla.addMouseListener( new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {

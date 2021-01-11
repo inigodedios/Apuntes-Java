@@ -5,8 +5,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
-
-import static BD.BDConceptos.initBD;
+import BD.BDConceptos.*;
 
 public class BDOperaciones {
 
@@ -20,6 +19,7 @@ public class BDOperaciones {
      * FORMA 2
      * PreparedStatement pst = con.prepareStatement("Select * from Usuario where nick = ?");
      * pst.setString(1, usuario.getNick()); //la primera (1) variable con ?, toma el valor de usuario.getNick()
+     * Ejemplo en EjemploBDCompleto
      */
 
 

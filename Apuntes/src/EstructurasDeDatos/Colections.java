@@ -99,6 +99,24 @@ public class Colections implements Comparator<Object>{
 
 	}
 
+	/**
+	 * Los objetos de los TreeMap y TreeSet deben tener en su clase un compareTO
+	 * Dos casos: si son String o si no son String
+	 */
+	//@Override
+	public int compareTo(Object o) {
+		// TODO Auto-generated method stub
+		//ASCENDENTE
+		//Si comparamos String   this.abbrv.compareTo(o.abbrv);
+		//Si no es String this.stars - o.stars;
+
+		//DESCENDENTE
+		//Si comparamos String   o.abbrv.compareTo(this.abbrv);
+		//Si no es String o.stars - this.stars;
+		//return this.abbrv.compareTo(o.abbrv);
+		return 0;
+	}
+
 	@Override
 	public int compare(Object o1, Object o2) {
 		return 0;
