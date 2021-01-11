@@ -55,9 +55,8 @@ public class JTableYJScrollPaneA extends JFrame{
         pScrollPane.setHorizontalScrollBarPolicy(ScrollPaneConstants.HORIZONTAL_SCROLLBAR_AS_NEEDED);
         tTabla.getSelectionModel().setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
 
-
         String nombreColumnas [] = {"Columna 1", "Columna 2", "Columna 3", "Columna 4", "Columna 5"};
-        String fila1 [] = {"11", "12", "13", "14", "15"};
+        String fila1 [] = {"11", "12", "13", "14", "prueba"};
         String fila2 [] = {"21", "22", "23", "24", "25"};
         String fila3 [] = {"21", "32", "33", "34", "35"};
 
@@ -72,8 +71,8 @@ public class JTableYJScrollPaneA extends JFrame{
         pPrincipal.add(pScrollPane, BorderLayout.CENTER);
         add(pPrincipal);
 
-        //Editar celdas de la tabla
-        tTabla.setDefaultRenderer(String.class, new DefaultTableCellRenderer() { //String.class porque el cambio va suceder en los String y DefaultTableCellRenderer porque el cambio va a suceder en los cell
+        //Poner siempre Object.class!! Si no da problemas
+        tTabla.setDefaultRenderer(Object.class, new DefaultTableCellRenderer() { //O.class porque el cambio va suceder en los String y DefaultTableCellRenderer porque el cambio va a suceder en los cell
             /**
              * hacer new TableCellRenderer que nos implementa unos metodos, ya que es una interfaz. Coger los métodos que
              * nos interesen y cambiar el nombre a DefaultTableCellRenderer
@@ -81,43 +80,27 @@ public class JTableYJScrollPaneA extends JFrame{
             @Override //TODO
             public Component getTableCellRendererComponent(JTable table, Object value, boolean isSelected, boolean hasFocus, int row, int column) {
 
-//                Component c = super.getTableCellRendererComponent(table, value, isSelected, hasFocus, row, column); //Forma en la que esta dibujada la celda antes de hacer un cambio
-
+                Component c = super.getTableCellRendererComponent(table, value, isSelected, hasFocus, row, column); //Forma en la que esta dibujada la celda antes de hacer un cambio
                 //Debemos operar con table, value, isSelected, hasFocus, row y column para que se apliquen los cambios en la tabla
 
-//                String s = (String) value;
-//                if(s.compareTo("1")==0){
-//                    System.out.println("Entr");
-//                }else{
-//                    ;
-//                }
-                JLabel lVacia = new JLabel( "" );
+                String s = (String) value;
+                boolean seleccionado = isSelected;
+                boolean foco = hasFocus;
+                int fila = row;
+                int columna = column;
 
-//                if(column == 4 && row == 5 ) {
-                    JLabel c = (JLabel) table.getComponentAt(4, 5);
-                    System.out.println("Entrado");
-                    c.setBackground(Color.green);
-                    return c;
-//                }else{
-//
-//                    setBackground(Color.yellow);
-//                }
+                if(row==0 && column==0) {
+                    c.setForeground(Color.MAGENTA);
+                }else {
+                    //RECOMENDABLE HACER EL ELSE! porque a veces falla
+                }
 
-//                if(row==0 && column==0) {
-//
-//                    setForeground(Color.MAGENTA);
-//                }else {
-//
-//                    setForeground(Color.yellow);
-//                }
-//
-//                if(row==0) {
-//                    setBackground(Color.GREEN);
-//                }else {
-//
-//                    setBackground(Color.yellow);
-//                }
-//                return null;
+                if(row==0) {
+                    c.setBackground(Color.GREEN);
+                }else {
+                }
+
+                return c;
             }
         });
 
@@ -154,9 +137,6 @@ public class JTableYJScrollPaneA extends JFrame{
             }
         });
     }
-
-
-
 
     public static void main(String[] args) {
         JTableYJScrollPaneA v = new JTableYJScrollPaneA();
