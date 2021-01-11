@@ -17,7 +17,7 @@ public class JTableYJScrollPaneA extends JFrame{
 
     //COMPONENTES IMPORTANTES
     JScrollPane pScrollPane; //En este panel ira la tabla, con scrollbar por defecto
-    private JTable tTabla; //La tabla
+    private JTable tTabla; //La tabla en si
     private DefaultTableModel modeloTabla; //Datos de la TABLA (columnaas, filas...)
     //private DefaultTableCellRenderer; //Para hacer cambios en las celdas de la tabla, tanto datos como aspecto. Coger un dato y si es X, cambiar de color
 
@@ -51,10 +51,10 @@ public class JTableYJScrollPaneA extends JFrame{
         pScrollPane.setVerticalScrollBarPolicy(ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
         pScrollPane.setHorizontalScrollBarPolicy(ScrollPaneConstants.HORIZONTAL_SCROLLBAR_AS_NEEDED);
 
-        String nombreColumnas [] = {"Columna 1", "Columna 2", "Columna 3"};
-        String fila1 [] = {"11", "12", "13"};
-        String fila2 [] = {"21", "22", "23"};
-        String fila3 [] = {"21", "32", "33"};
+        String nombreColumnas [] = {"Columna 1", "Columna 2", "Columna 3", "Columna 4", "Columna 5"};
+        String fila1 [] = {"11", "12", "13", "14", "15"};
+        String fila2 [] = {"21", "22", "23", "24", "25"};
+        String fila3 [] = {"21", "32", "33", "34", "35"};
 
         modeloTabla.setColumnIdentifiers(nombreColumnas);
         modeloTabla.addRow(fila1);modeloTabla.addRow(fila1);modeloTabla.addRow(fila1);modeloTabla.addRow(fila1);
