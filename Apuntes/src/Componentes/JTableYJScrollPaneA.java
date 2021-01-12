@@ -119,14 +119,14 @@ public class JTableYJScrollPaneA extends JFrame{
 
         //Obetener datos de la tabla y añadir a la base de datos
         for(int i=0;i<modeloTabla.getRowCount();i++) {
-            //DESDE LA COLUMNA 0!!
-            String columna0 = modeloTabla.getValueAt(i, 0).toString();
-            String columna1 = modeloTabla.getValueAt(i, 1).toString();
-            String columna2 = modeloTabla.getValueAt(i, 2).toString();
-            String columna3 = modeloTabla.getValueAt(i, 3).toString();
-            String columna4 = modeloTabla.getValueAt(i, 4).toString();
+            //DESDE LA COLUMNA Y FILA 0!!
+            String celdai0 = modeloTabla.getValueAt(i, 0).toString();
+            String celdai1 = modeloTabla.getValueAt(i, 1).toString();
+            String celdai2 = modeloTabla.getValueAt(i, 2).toString();
+            String celdai3 = modeloTabla.getValueAt(i, 3).toString();
+            String celdai4 = modeloTabla.getValueAt(i, 4).toString();
 
-            String fila [] = {columna0, columna1, columna2, columna3, columna4};
+            String fila [] = {celdai0, celdai1, celdai2, celdai3, celdai4};
            //baseDeDatos.insertarFila(fila);
         }
 
