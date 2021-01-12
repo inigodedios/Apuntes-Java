@@ -117,6 +117,19 @@ public class JTableYJScrollPaneA extends JFrame{
             }
         });
 
+        //Obetener datos de la tabla y añadir a la base de datos
+        for(int i=0;i<modeloTabla.getRowCount();i++) {
+            //DESDE LA COLUMNA 0!!
+            String columna0 = modeloTabla.getValueAt(i, 0).toString();
+            String columna1 = modeloTabla.getValueAt(i, 1).toString();
+            String columna2 = modeloTabla.getValueAt(i, 2).toString();
+            String columna3 = modeloTabla.getValueAt(i, 3).toString();
+            String columna4 = modeloTabla.getValueAt(i, 4).toString();
+
+            String fila [] = {columna0, columna1, columna2, columna3, columna4};
+           //baseDeDatos.insertarFila(fila);
+        }
+
         //Obtener fila y columnsa del JTable donde se hace click
         tTabla.addMouseListener(new MouseAdapter() {
             @Override

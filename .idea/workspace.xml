@@ -24,28 +24,14 @@
   <component name="ChangeListManager">
     <list default="true" id="8a291377-ed8e-4e73-a96d-9b737ba73d12" name="Default Changelist" comment="Mejoras importantes en la JTable. Ya funciona">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/production/Apuntes/BD/BDConceptos.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/production/Apuntes/BD/BDOperaciones.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/production/Apuntes/BD/sqlite-jdbc-3.14.2.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/production/Apuntes/BD/sqlite-jdbc-3.14.2.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/production/Apuntes/EscrituraEnFicheros/FicherosBinarios.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/production/Apuntes/EscrituraEnFicheros/FicherosDeTexto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/production/Apuntes/EscrituraEnFicheros/Log.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/production/Apuntes/EstructurasDeDatos/Colections.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/production/Apuntes/Expresiones/Lambda.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/production/Apuntes/Hilos/Hilos$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/production/Apuntes/Hilos/Hilos.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/production/Apuntes/Layout/BoxLayout.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/production/Apuntes/Operadores/Operadores.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/production/Apuntes/Recursividad/Recursividad.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/src/BD/BDOperaciones.java" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/src/BD/BDOperaciones.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Apuntes/src/Componentes/JTableYJScrollPaneA.java" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/src/Componentes/JTableYJScrollPaneA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/src/EstructurasDeDatos/Colections.java" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/src/EstructurasDeDatos/Colections.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager" show_ignored="true" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -541,7 +527,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610405870545</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Mejoras importantes en la JTable. Ya funciona">
+      <created>1610409355782</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1610409355782</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -687,10 +680,10 @@
     <state x="0" y="0" key="SettingsEditor/1440.25.2560.1055/0.0.1440.900@0.0.1440.900" timestamp="1605817730367" />
     <state x="1440" y="25" key="SettingsEditor/1440.25.2560.1055/0.0.1440.900@1440.25.2560.1055" timestamp="1605823204574" />
     <state x="0" y="25" key="SettingsEditor/1440.25.2560.1055/0.25.1440.875@0.25.1440.875" timestamp="1605810747880" />
-    <state x="2009" y="220" key="Vcs.Push.Dialog.v2" timestamp="1610405877111">
-      <screen x="1440" y="0" width="2560" height="1080" />
+    <state x="320" y="183" key="Vcs.Push.Dialog.v2" timestamp="1610409358465">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="183" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1610386016792" />
+    <state x="320" y="183" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1610409358464" />
     <state x="320" y="203" key="Vcs.Push.Dialog.v2/0.25.1440.875@0.25.1440.875" timestamp="1610331888116" />
     <state x="320" y="183" key="Vcs.Push.Dialog.v2/1440.0.2560.1080/0.0.1440.900@0.0.1440.900" timestamp="1610403946111" />
     <state x="2009" y="220" key="Vcs.Push.Dialog.v2/1440.0.2560.1080/0.0.1440.900@1440.0.2560.1080" timestamp="1610405877111" />
@@ -704,10 +697,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="433" y="357" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/1440.0.2560.1080/0.0.1440.900@0.0.1440.900" timestamp="1607540165195" />
-    <state x="518" y="368" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607560808649">
+    <state x="518" y="368" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610409310915">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="518" y="368" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1607560808649" />
+    <state x="518" y="368" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1610409310915" />
     <state x="518" y="383" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1440.875@0.25.1440.875" timestamp="1605614236771" />
     <state x="518" y="368" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1440.0.2560.1080/0.0.1440.900@0.0.1440.900" timestamp="1607448795203" />
     <state x="2361" y="442" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1440.0.2560.1080/0.0.1440.900@1440.0.2560.1080" timestamp="1607301867920" />
