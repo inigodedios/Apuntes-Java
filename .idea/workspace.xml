@@ -22,9 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a291377-ed8e-4e73-a96d-9b737ba73d12" name="Default Changelist" comment="añadido metodo que recorre la tabla para meter los datos a una bbdd">
+    <list default="true" id="8a291377-ed8e-4e73-a96d-9b737ba73d12" name="Default Changelist" comment="perfeccionado metodo que recorre la tabla para meter los datos a una bbdd">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/src/Componentes/JTableYJScrollPaneA.java" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/src/Componentes/JTableYJScrollPaneA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apuntes/src/EstructurasDeDatos/Colections.java" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/src/EstructurasDeDatos/Collections.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,13 +190,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605403128124</updated>
-    </task>
-    <task id="LOCAL-00002" summary="prueba756">
-      <created>1605403787559</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1605403787559</updated>
     </task>
     <task id="LOCAL-00003" summary="prueba756&#10;kbj">
       <created>1605403804304</created>
@@ -534,7 +527,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610452432370</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="perfeccionado metodo que recorre la tabla para meter los datos a una bbdd">
+      <created>1610453009383</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1610453009384</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -560,7 +560,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="prueba756&#10;kbjn n" />
     <MESSAGE value="organizando archivos 17/11/2020" />
     <MESSAGE value="d" />
     <MESSAGE value="Apuntes BD" />
@@ -585,7 +584,8 @@
     <MESSAGE value="Mejoras" />
     <MESSAGE value="Mejoras importantes en la JTable. Ya funciona" />
     <MESSAGE value="añadido metodo que recorre la tabla para meter los datos a una bbdd" />
-    <option name="LAST_COMMIT_MESSAGE" value="añadido metodo que recorre la tabla para meter los datos a una bbdd" />
+    <MESSAGE value="perfeccionado metodo que recorre la tabla para meter los datos a una bbdd" />
+    <option name="LAST_COMMIT_MESSAGE" value="perfeccionado metodo que recorre la tabla para meter los datos a una bbdd" />
   </component>
   <component name="WindowStateProjectService">
     <state x="451" y="282" key="#Notifications" timestamp="1607445738870">
@@ -680,12 +680,12 @@
     <state x="0" y="0" key="SettingsEditor/1440.25.2560.1055/0.0.1440.900@0.0.1440.900" timestamp="1605817730367" />
     <state x="1440" y="25" key="SettingsEditor/1440.25.2560.1055/0.0.1440.900@1440.25.2560.1055" timestamp="1605823204574" />
     <state x="0" y="25" key="SettingsEditor/1440.25.2560.1055/0.25.1440.875@0.25.1440.875" timestamp="1605810747880" />
-    <state x="320" y="183" key="Vcs.Push.Dialog.v2" timestamp="1610452434318">
+    <state x="320" y="183" key="Vcs.Push.Dialog.v2" timestamp="1610453017654">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="320" y="183" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1610409358464" />
     <state x="320" y="203" key="Vcs.Push.Dialog.v2/0.25.1440.875@0.25.1440.875" timestamp="1610331888116" />
-    <state x="320" y="183" key="Vcs.Push.Dialog.v2/1440.0.2560.1080/0.0.1440.900@0.0.1440.900" timestamp="1610452434318" />
+    <state x="320" y="183" key="Vcs.Push.Dialog.v2/1440.0.2560.1080/0.0.1440.900@0.0.1440.900" timestamp="1610453017654" />
     <state x="2009" y="220" key="Vcs.Push.Dialog.v2/1440.0.2560.1080/0.0.1440.900@1440.0.2560.1080" timestamp="1610405877111" />
     <state x="320" y="201" key="Vcs.Push.Dialog.v2/1440.23.2560.1057/0.23.1440.877@0.23.1440.877" timestamp="1605403161043" />
     <state x="320" y="203" key="Vcs.Push.Dialog.v2/1440.25.2560.1055/0.25.1440.875@0.25.1440.875" timestamp="1605827661988" />

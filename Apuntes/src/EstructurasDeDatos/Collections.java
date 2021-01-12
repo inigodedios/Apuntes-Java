@@ -2,9 +2,9 @@ package EstructurasDeDatos;
 
 import java.util.*;
 
-public class Colections implements Comparator<Object>{
+public class Collections implements Comparator<Object>{
 
-	public Colections(){
+	public Collections(){
 
 		//ARRAYLIST
 		//Lista de elementos que no tiene orden y puede haber elementos repetidos
@@ -82,6 +82,8 @@ public class Colections implements Comparator<Object>{
 		hm.get("tres"); //Pasamos por parametro el Key y nos devuelve el value
 		hm.containsKey("tres"); //Más eficiente que el get
 		hm.remove("tres");
+
+		//DevuelveValor = tm.get(clave);
 
 		//Igual para un HashMap y TreeMap
 		for(Map.Entry<String,Integer> entry : tm.entrySet()) { //Iterador
