@@ -22,10 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a291377-ed8e-4e73-a96d-9b737ba73d12" name="Default Changelist" comment="perfeccionado metodo que recorre la tabla para meter los datos a una bbdd">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apuntes/src/EstructurasDeDatos/Colections.java" beforeDir="false" afterPath="$PROJECT_DIR$/Apuntes/src/EstructurasDeDatos/Collections.java" afterDir="false" />
-    </list>
+    <list default="true" id="8a291377-ed8e-4e73-a96d-9b737ba73d12" name="Default Changelist" comment="ÚLTIMA ACTUALIZACIÓN 17/01/2021" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -190,13 +187,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605403128124</updated>
-    </task>
-    <task id="LOCAL-00003" summary="prueba756&#10;kbj">
-      <created>1605403804304</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1605403804304</updated>
     </task>
     <task id="LOCAL-00004" summary="prueba756&#10;kbjn n">
       <created>1605443914845</created>
@@ -534,7 +524,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610453009384</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="ÚLTIMA ACTUALIZACIÓN 17/01/2021">
+      <created>1610843523772</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1610843523772</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -560,7 +557,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="organizando archivos 17/11/2020" />
     <MESSAGE value="d" />
     <MESSAGE value="Apuntes BD" />
     <MESSAGE value="Modificando EstructurasDeDatos" />
@@ -585,7 +581,8 @@
     <MESSAGE value="Mejoras importantes en la JTable. Ya funciona" />
     <MESSAGE value="añadido metodo que recorre la tabla para meter los datos a una bbdd" />
     <MESSAGE value="perfeccionado metodo que recorre la tabla para meter los datos a una bbdd" />
-    <option name="LAST_COMMIT_MESSAGE" value="perfeccionado metodo que recorre la tabla para meter los datos a una bbdd" />
+    <MESSAGE value="ÚLTIMA ACTUALIZACIÓN 17/01/2021" />
+    <option name="LAST_COMMIT_MESSAGE" value="ÚLTIMA ACTUALIZACIÓN 17/01/2021" />
   </component>
   <component name="WindowStateProjectService">
     <state x="451" y="282" key="#Notifications" timestamp="1607445738870">
@@ -733,14 +730,14 @@
     </state>
     <state x="623" y="258" key="refactoring.ChangeSignatureDialog/0.0.1440.900@0.0.1440.900" timestamp="1607335204143" />
     <state x="2548" y="310" key="refactoring.ChangeSignatureDialog/1440.0.2560.1080/0.0.1440.900@1440.0.2560.1080" timestamp="1607300325798" />
-    <state x="2124" y="233" width="1192" height="836" key="search.everywhere.popup" timestamp="1610310281857">
-      <screen x="1440" y="0" width="2560" height="1080" />
+    <state x="385" y="214" width="670" height="676" key="search.everywhere.popup" timestamp="1610843392428">
+      <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="385" y="214" width="670" height="676" key="search.everywhere.popup/0.25.1440.875@0.25.1440.875" timestamp="1605616343313" />
     <state x="385" y="194" width="670" height="696" key="search.everywhere.popup/1440.0.2560.1080/0.0.1440.900@0.0.1440.900" timestamp="1605828585966" />
     <state x="2124" y="233" width="1192" height="836" key="search.everywhere.popup/1440.0.2560.1080/0.0.1440.900@1440.0.2560.1080" timestamp="1610310281857" />
     <state x="385" y="194" width="670" height="696" key="search.everywhere.popup/1440.25.2560.1055/0.0.1440.900@0.0.1440.900" timestamp="1605823528341" />
-    <state x="385" y="214" width="670" height="676" key="search.everywhere.popup/1440.25.2560.1055/0.25.1440.875@0.25.1440.875" timestamp="1605809258463" />
+    <state x="385" y="214" width="670" height="676" key="search.everywhere.popup/1440.25.2560.1055/0.25.1440.875@0.25.1440.875" timestamp="1610843392428" />
     <state x="450" y="360" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1605828442369">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
