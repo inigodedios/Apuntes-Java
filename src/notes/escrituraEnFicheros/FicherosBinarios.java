@@ -1,4 +1,4 @@
-package EscrituraEnFicheros;
+package escrituraEnFicheros;
 
 import java.io.*;
 import java.util.TreeSet;

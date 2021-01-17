@@ -1,4 +1,4 @@
-package Componentes;
+package componentes;
 
 import javax.swing.JMenu;
 import javax.swing.JMenuItem;

@@ -1,4 +1,4 @@
-package Hilos;
+package hilos;
 
 import javax.swing.*;
 import java.awt.*;

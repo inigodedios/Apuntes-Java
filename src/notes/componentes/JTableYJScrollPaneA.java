@@ -1,4 +1,4 @@
-package Componentes;
+package componentes;
 
 
 import javax.swing.*;
@@ -9,8 +9,6 @@ import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
-import java.awt.event.MouseListener;
-import java.awt.event.MouseWheelEvent;
 
 public class JTableYJScrollPaneA extends JFrame{
     /**

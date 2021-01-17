@@ -1,4 +1,4 @@
-package EstructurasDeDatos;
+package estructurasDeDatos;
 
 import java.util.*;
 

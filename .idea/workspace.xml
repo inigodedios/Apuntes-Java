@@ -93,11 +93,11 @@
   </component>
   <component name="RunManager" selected="Application.JTableYJScrollPaneA">
     <configuration name="BDConceptos" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BD.BDConceptos" />
+      <option name="MAIN_CLASS_NAME" value="bbdd.BDConceptos" />
       <module name="Apuntes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BD.*" />
+          <option name="PATTERN" value="bbdd.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,11 +106,11 @@
       </method>
     </configuration>
     <configuration name="JListA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Componentes.JListA" />
+      <option name="MAIN_CLASS_NAME" value="componentes.JListA" />
       <module name="Apuntes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Componentes.*" />
+          <option name="PATTERN" value="componentes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +119,11 @@
       </method>
     </configuration>
     <configuration name="JMenuA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Componentes.JMenuA" />
+      <option name="MAIN_CLASS_NAME" value="componentes.JMenuA" />
       <module name="Apuntes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Componentes.*" />
+          <option name="PATTERN" value="componentes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +132,11 @@
       </method>
     </configuration>
     <configuration name="JTableYJScrollPaneA" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Componentes.JTableYJScrollPaneA" />
+      <option name="MAIN_CLASS_NAME" value="componentes.JTableYJScrollPaneA" />
       <module name="Apuntes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Componentes.*" />
+          <option name="PATTERN" value="componentes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,7 +149,7 @@
       <module name="Apuntes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Componentes.*" />
+          <option name="PATTERN" value="componentes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,7 +162,7 @@
       <module name="Apuntes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Componentes.*" />
+          <option name="PATTERN" value="componentes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -187,13 +187,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605403128124</updated>
-    </task>
-    <task id="LOCAL-00004" summary="prueba756&#10;kbjn n">
-      <created>1605443914845</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1605443914845</updated>
     </task>
     <task id="LOCAL-00005" summary="prueba756&#10;kbjn n">
       <created>1605443969542</created>
@@ -531,7 +524,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610843523772</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="ÚLTIMA ACTUALIZACIÓN 17/01/2021">
+      <created>1610843918552</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1610843918553</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -677,15 +677,15 @@
     <state x="0" y="0" key="SettingsEditor/1440.25.2560.1055/0.0.1440.900@0.0.1440.900" timestamp="1605817730367" />
     <state x="1440" y="25" key="SettingsEditor/1440.25.2560.1055/0.0.1440.900@1440.25.2560.1055" timestamp="1605823204574" />
     <state x="0" y="25" key="SettingsEditor/1440.25.2560.1055/0.25.1440.875@0.25.1440.875" timestamp="1605810747880" />
-    <state x="320" y="183" key="Vcs.Push.Dialog.v2" timestamp="1610453017654">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="320" y="203" key="Vcs.Push.Dialog.v2" timestamp="1610843921660">
+      <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="320" y="183" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1610409358464" />
     <state x="320" y="203" key="Vcs.Push.Dialog.v2/0.25.1440.875@0.25.1440.875" timestamp="1610331888116" />
     <state x="320" y="183" key="Vcs.Push.Dialog.v2/1440.0.2560.1080/0.0.1440.900@0.0.1440.900" timestamp="1610453017654" />
     <state x="2009" y="220" key="Vcs.Push.Dialog.v2/1440.0.2560.1080/0.0.1440.900@1440.0.2560.1080" timestamp="1610405877111" />
     <state x="320" y="201" key="Vcs.Push.Dialog.v2/1440.23.2560.1057/0.23.1440.877@0.23.1440.877" timestamp="1605403161043" />
-    <state x="320" y="203" key="Vcs.Push.Dialog.v2/1440.25.2560.1055/0.25.1440.875@0.25.1440.875" timestamp="1605827661988" />
+    <state x="320" y="203" key="Vcs.Push.Dialog.v2/1440.25.2560.1055/0.25.1440.875@0.25.1440.875" timestamp="1610843921660" />
     <state x="1540" y="100" width="2360" height="880" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1610404904231">
       <screen x="1440" y="0" width="2560" height="1080" />
     </state>

@@ -1,7 +1,5 @@
-package BD;
+package bbdd;
 
-import javax.swing.*;
-import javax.swing.plaf.nimbus.State;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;

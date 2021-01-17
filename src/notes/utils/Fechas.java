@@ -1,6 +1,4 @@
-package Utils;
-
-import java.util.Date;
+package utils;
 
 public class Fechas {
 

@@ -1,4 +1,4 @@
-package Expresiones;
+package expresiones;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
