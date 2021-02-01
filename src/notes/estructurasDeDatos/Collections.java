@@ -107,7 +107,6 @@ public class Collections implements Comparator<Object>{
 	 */
 	//@Override
 	public int compareTo(Object o) {
-		// TODO Auto-generated method stub
 		//ASCENDENTE
 		//Si comparamos String   this.abbrv.compareTo(o.abbrv);
 		//Si no es String this.stars - o.stars;

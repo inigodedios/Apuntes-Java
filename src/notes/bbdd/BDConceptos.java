@@ -12,7 +12,6 @@ public class BDConceptos {
     3. EJECUTAR SENTENCIA SQL
     4. SI ES SELECT --> ADEMAS CREAR UN RESULSET, DONDE SE EJECUTA LA SENTENCIA
 
-    //TODO Preguntar Marian
     Sólo se abre una vez la conexion (initBD(...))
     Sólo se crea un Connection una vez
     Por cada sentencia, un objeto nuevo statement (y resulset si es necesario)

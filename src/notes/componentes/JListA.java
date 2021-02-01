@@ -29,8 +29,6 @@ public class JListA extends JFrame {
     JTextField tfAnyadir;
     JButton bAnyadir, bBorrar, bBorrarTodos;
 
-    //TODO ScrollPane / ScrollBar
-
     public JListA (){
         setSize(600,400);
         setLocationRelativeTo(null);
@@ -70,7 +68,7 @@ public class JListA extends JFrame {
         bBorrarTodos.addActionListener(e -> {modeloLista.clear();});
 
         /**
-         * //TODO NO funciona bien, elimina cuando das dos veces a borrar
+         * NO funciona bien, elimina cuando das dos veces a borrar
          */
         bBorrar.addMouseListener(new MouseAdapter() {
             @Override
